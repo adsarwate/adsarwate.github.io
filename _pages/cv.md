@@ -1,6 +1,6 @@
 ---
-layout: cv
-permalink: /cv/
+layout: none
+permalink: /SarwateWebCV.pdf
 title: cv
 nav: true
 nav_order: 4
