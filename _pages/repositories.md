@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: Current and past group members
 nav: true
 nav_order: 3
 ---
@@ -15,13 +15,9 @@ My "lab" is a room full of desks. I have thus far resisted giving it a fancy nam
 
 *   Sinjini Banerjee (PhD)
 *   [Daniel Bittner](https://www.linkedin.com/in/daniel-bittner-8776b728/) (PhD) (co-advised with [Rebecca Wright](https://www.cs.columbia.edu/~rwright/))
-*   Jeffrey Isaacs (MS)
 *   Xin Li (PhD)
-*   [Soo Min Kwon](https://www.linkedin.com/in/soo-min-kwon-215ba114b/) (MS)
-*   [Mohsen Rajabpour](https://www.linkedin.com/in/mohsen-rajabpour-b5b897105/) (PhD) (co-advised with [Narayan Mandayam](http://www.winlab.rutgers.edu/~narayan/))
 *   Nitya Sathyavageeswaran (PhD) (co-advised with [Narayan Mandayam](http://www.winlab.rutgers.edu/~narayan/) and [Roy Yates](http://www.winlab.rutgers.edu/~ryates/))
 *   Ye Tao (PhD)
-*   [Sijie Xiong](http://www.ece.rutgers.edu/~sx37/) (PhD) (co-advised with [Narayan Mandayam](http://www.winlab.rutgers.edu/~narayan/))
 *   Yu Wu (PhD)
 
 **Undergraduate Students:**
@@ -39,9 +35,13 @@ Here is a list of previous students, postdocs, and visitors who have worked with
 
 **Previous Graduate Students and Postdocs**
 
+*   Jeffrey Isaacs (MS)
+*   [Sijie Xiong](http://www.ece.rutgers.edu/~sx37/) (PhD) (co-advised with [Narayan Mandayam](http://www.winlab.rutgers.edu/~narayan/))
+*   [Soo Min Kwon](https://www.linkedin.com/in/soo-min-kwon-215ba114b/) (MS)
+*   [Mohsen Rajabpour](https://www.linkedin.com/in/mohsen-rajabpour-b5b897105/) (PhD) (co-advised with [Narayan Mandayam](http://www.winlab.rutgers.edu/~narayan/))
 *   [Konstantinos Nikolakakis](https://knikolakakis.org/) (MS/PhD)  
     _Learning Tree Structured Models from Noisy Data_
-*   [Mohsen Ghassemi](https://www.ece.rutgers.edu/~mg975/)  
+*   [Mohsen Ghassemi](https://www.ece.rutgers.edu/~mg975/) (MS/PhD)
     _Nonconvex Matrix and Tensor Recovery with Applications in Machine Learning_
 *   [Hafiz Imtiaz](https://scholar.google.com/citations?user=W4G5ww8AAAAJ&hl=en)  
     _Decentralized Differentially Private Algorithms for Matrix and Tensor Factorization_
