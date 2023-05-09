@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /repositories/
-title: repositories
+permalink: /group/
+title: group
 description: Current and past group members
 nav: true
 nav_order: 3
