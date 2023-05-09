@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /group/
-title: repositories
+title: research group and advisees
 description: Current and past group members
 nav: true
 nav_order: 3
