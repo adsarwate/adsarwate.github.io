@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /group/
-title: research group and advisees
+title: group/"lab"
 description: Current and past group members
 nav: true
 nav_order: 3
