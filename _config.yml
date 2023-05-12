@@ -273,10 +273,10 @@ scholar:
   last_name: [Sarwate]
   first_name: [Anand, D.]
 
-  style: _bibliography/
+  style: ./_bibliography/
   locale: en
 
-  source: /_bibliography/ieee-custom.csl
+  source: ./_bibliography/ieee-custom.csl
   bibliography: asarwate.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
