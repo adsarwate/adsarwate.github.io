@@ -86,7 +86,7 @@ body.sticky-bottom-footer {
 }
 
 .container {
-  max-width: 400px;
+  max-width: 2000px;
 }
 
 .profile img {
@@ -546,7 +546,7 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .preview {
   width: 100%;
-  min-width: 80px;
+  min-width: 200px;
   max-width: 400px;
 }
 .publications ol.bibliography li .abbr {
@@ -556,8 +556,8 @@ footer.sticky-bottom {
 .publications ol.bibliography li .abbr abbr {
   display: inline-block;
   background-color: var(--global-theme-color);
-  padding-left: 0rem;
-  padding-right: 0rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .publications ol.bibliography li .abbr abbr a {
   color: white;
