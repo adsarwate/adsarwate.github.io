@@ -2,6 +2,13 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
+        <div class="col-sm-10 {% if entry.preview %}preview{% else %}abbr{% endif %}">
+        {{reference}}
+		</div>
+	  </div>
+
+
+      <div class="row">
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
