@@ -273,7 +273,7 @@ scholar:
   last_name: [Sarwate]
   first_name: [Anand, Anand Dilip, A., A. D., A.D.]
 
-  style: apa
+  style: assets/bibliography/ieee-custom
   locale: en
 
   source: ./_bibliography/
