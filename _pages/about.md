@@ -23,5 +23,5 @@ social: true  # includes social icons at the bottom of the page
 
 I am a an Associate Professor in the [Department of Electrical and Computer Engineering](https://www.ece.rutgers.edu/) at [Rutgers, The State University of New Jersey](https://www.rutgers.edu/). I also am a member of the graduate faculty in the [Department of Computer Science](https://www.cs.rutgers.edu/) and the [Department of Statistics](https://www.stat.rutgers.edu/).
 
-**This page is still (maybe permanently?) under construction while I migrate content over. It might take a while. Until then, see my [current homepage](https://www.ece.rutgers.edu/~asarwate/) hosted at Rutgers.**
+All updates will be posted here but I am still porting content from my [previous homepage](https://www.ece.rutgers.edu/~asarwate/) hosted at Rutgers.
 
