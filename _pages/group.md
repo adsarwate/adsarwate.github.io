@@ -39,23 +39,23 @@ Here is a list of previous students, postdocs, and visitors who have worked with
 **Previous Graduate Students and Postdocs**
 
 *   Jeffrey Isaacs (MS 2022)
-    MS Thesis: [_Global Indoor 2D Localization Using Polygon Edge Visibility Decomposition_](https://rucore.libraries.rutgers.edu/rutgers-lib/69112/)
+    * MS Thesis: [_Global Indoor 2D Localization Using Polygon Edge Visibility Decomposition_](https://rucore.libraries.rutgers.edu/rutgers-lib/69112/)
 *   [Sijie Xiong](http://www.ece.rutgers.edu/~sx37/) (PhD 2022) (co-advised with [Narayan Mandayam](http://www.winlab.rutgers.edu/~narayan/))
-    PhD Thesis: [_PERMIT: Privacy-Enabled Resource Management for Internet of Things Networks_](https://rucore.libraries.rutgers.edu/rutgers-lib/67108/)
+    * PhD Thesis: [_PERMIT: Privacy-Enabled Resource Management for Internet of Things Networks_](https://rucore.libraries.rutgers.edu/rutgers-lib/67108/)
 *   [Soo Min Kwon](https://www.linkedin.com/in/soo-min-kwon-215ba114b/) (MS 2022)
-    MS Thesis: [_Optimization Problems with Low-Dimensional Tensor Structure_](https://rucore.libraries.rutgers.edu/rutgers-lib/67410/)
+    * MS Thesis: [_Optimization Problems with Low-Dimensional Tensor Structure_](https://rucore.libraries.rutgers.edu/rutgers-lib/67410/)
 *   [Mohsen Rajabpour](https://www.linkedin.com/in/mohsen-rajabpour-b5b897105/) (PhD 2022) (co-advised with [Narayan Mandayam](http://www.winlab.rutgers.edu/~narayan/))
-    PhD Thesis: [_Modeling prosumer behavior in the smart grid and implementing privacy design in IoT_](https://rucore.libraries.rutgers.edu/rutgers-lib/67069/)
+    * PhD Thesis: [_Modeling prosumer behavior in the smart grid and implementing privacy design in IoT_](https://rucore.libraries.rutgers.edu/rutgers-lib/67069/)
 *   [Konstantinos Nikolakakis](https://knikolakakis.org/) (MS/PhD 2021)  
-    PhD Thesis: [_Learning Tree Structured Models from Noisy Data_](https://rucore.libraries.rutgers.edu/rutgers-lib/66047/)
+    * PhD Thesis: [_Learning Tree Structured Models from Noisy Data_](https://rucore.libraries.rutgers.edu/rutgers-lib/66047/)
 *   [Mohsen Ghassemi](https://www.ece.rutgers.edu/~mg975/) (MS/PhD 2020)
-	MS Thesis: [_From coordinate descent to social sampling_](https://rucore.libraries.rutgers.edu/rutgers-lib/49967/)
-	PhD Thesis: [_Nonconvex Matrix and Tensor Recovery with Applications in Machine Learning_](https://rucore.libraries.rutgers.edu/rutgers-lib/65376/)
+	* MS Thesis: [_From coordinate descent to social sampling_](https://rucore.libraries.rutgers.edu/rutgers-lib/49967/)
+	* PhD Thesis: [_Nonconvex Matrix and Tensor Recovery with Applications in Machine Learning_](https://rucore.libraries.rutgers.edu/rutgers-lib/65376/)
 *   [Hafiz Imtiaz](https://hafizimtiaz.buet.ac.bd/) (PhD 2020)
-    PhD Thesis: [_Decentralized Differentially Private Algorithms for Matrix and Tensor Factorization_](https://rucore.libraries.rutgers.edu/rutgers-lib/62938/)
+    * PhD Thesis: [_Decentralized Differentially Private Algorithms for Matrix and Tensor Factorization_](https://rucore.libraries.rutgers.edu/rutgers-lib/62938/)
 *   [Jafar Mohammadi](https://www.bell-labs.com/usr/jafar.mohammadi) (Postdoc)
 *   [Liyang Xie](https://www.linkedin.com/in/li-yang-xie-77163baa/) (MS 2015)  
-    MS Thesis: [_Comparison of two models in differentially private distributed learning_](https://rucore.libraries.rutgers.edu/rutgers-lib/49347/)
+    * MS Thesis: [_Comparison of two models in differentially private distributed learning_](https://rucore.libraries.rutgers.edu/rutgers-lib/49347/)
 
 **Past Visiting Graduate Students**
 
