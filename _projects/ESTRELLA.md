@@ -2,7 +2,7 @@
 layout: page
 title: Tensor-based SP and ML
 description: tensor structure statistical models
-img: thinking_face.png
+img: assets/img/thinking_face.png
 importance: 3
 category: work
 ---
