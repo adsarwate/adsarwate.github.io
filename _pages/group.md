@@ -22,11 +22,11 @@ My "lab" is a room full of desks. I have thus far resisted giving it a fancy nam
 
 **Undergraduate Students:**
 
-*   Nicholas DiGirolamo, Rutgers Summer 2023 [Aresty Program](https://aresty.rutgers.edu)
-*   Nicole Le, Summer 2023 [SUPER REU](https://douglass.rutgers.edu/wise/project-super)
-*   Ava Ostrom, Summer 2023 [SUPER REU](https://douglass.rutgers.edu/wise/project-super)
-*   Victoria Parizot, Summer 2023 [DIMACS REU](http://reu.dimacs.rutgers.edu/)
-*   Jose Hoyos Sanchez, Summer 2023 [RiSE REU](http://rise.rutgers.edu/)
+*   Nicholas DiGirolamo (Rutgers), Rutgers Summer 2023 [Aresty Program](https://aresty.rutgers.edu)
+*   Nicole Le (Rutgers), Summer 2023 [SUPER REU](https://douglass.rutgers.edu/wise/project-super)
+*   Ava Ostrom (Rutgers), Summer 2023 [SUPER REU](https://douglass.rutgers.edu/wise/project-super)
+*   Victoria Parizot (Harvey Mudd), Summer 2023 [DIMACS REU](http://reu.dimacs.rutgers.edu/)
+*   Jose Hoyos Sanchez (University of Central Florida), Summer 2023 [RiSE REU](http://rise.rutgers.edu/)
 
 **For prospective graduate students:** Rutgers is an exciting place to learn and grow as an engineer. If you are specifically interested in my research, please look at my publications and projects. If you are applying to the department and want to pursue a Ph.D., apply to the Ph.D. program and mention your research interests in your statement. If you have _specific questions about my research_, feel free to contact me and mention that you have read this particular webpage. Unfortunately, I generally do not have the time to respond to general inquiries from potential students. I will not respond to emails that only contain a CV and a request for admission to my research group. 
 
