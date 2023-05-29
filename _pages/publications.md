@@ -12,7 +12,7 @@ nav_order: 1
 
 <h2>Preprints</h2>
 
-<p><b>NB:</b> ArXiv versions of published conference papers are linked from the conference paper.</p>
+<p><b>NB:</b> ArXiV versions of published conference papers are linked from the conference paper.</p>
 
 {%- for y in page.years %}
 		{% bibliography -f {{ site.scholar.bibliography }} -q @techreport[year={{y}}]* %}
