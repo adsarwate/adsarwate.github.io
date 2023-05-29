@@ -16,3 +16,16 @@ nav_order: 1
 {% endfor %}
 
 </div>
+
+<div>
+Testing new bibliography format here
+
+<h2>Preprints</h2>
+
+{%- for y in page.years %}
+		{% bibliography -f sarwate -q @techreport[year={{y}}]* %}
+{% endfor %}	
+
+
+
+</div>
