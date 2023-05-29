@@ -10,22 +10,20 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f {{ site.scholar.bibliography }} -q @*[year={{y}}]* %}
-{% endfor %}
-
-</div>
-
-<div>
 Testing new bibliography format here
 
 <h2>Preprints</h2>
 
 {%- for y in page.years %}
-		{% bibliography -f sarwate -q @techreport[year={{y}}]* %}
+		{% bibliography -f {{ site.scholar.bibliography }} -q @techreport[year={{y}}]* %}
 {% endfor %}	
 
-
+<!--
+{%- for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f {{ site.scholar.bibliography }} -q @*[year={{y}}]* %}
+{% endfor %}
+-->
 
 </div>
+
