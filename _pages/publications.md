@@ -43,11 +43,3 @@ nav_order: 1
 {% bibliography -f {{ site.scholar.bibliography }} -q @article[year=2002]* %}
 
 </div>
-
-
-<!--
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f {{ site.scholar.bibliography }} -q @*[year={{y}}]* %}
-{% endfor %}
--->
