@@ -20,7 +20,9 @@
             <a href="{{entry.arxiv}}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %}
           {%- if entry.bibtex_show %}
-          	<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+          	<div class="bibtex hidden">
+            	{% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
+          	</div>
  		  {%- endif %}
           {%- if entry.html %}
             <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
@@ -78,6 +80,7 @@
           <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
             {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           </div>
           {%- endif %}
           

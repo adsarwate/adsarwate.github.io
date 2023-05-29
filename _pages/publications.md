@@ -10,11 +10,9 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">	
 
-<p>Testing new bibliography format here:</p>
-
 <h2>Preprints</h2>
 
-<p>ArXiv papers linked to published conference papers are linked from the conference paper.</p>
+<p><b>NB:</b> ArXiv versions of published conference papers are linked from the conference paper.</p>
 
 {%- for y in page.years %}
 		{% bibliography -f {{ site.scholar.bibliography }} -q @techreport[year={{y}}]* %}
