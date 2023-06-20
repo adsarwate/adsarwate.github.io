@@ -20,15 +20,19 @@ My "lab" is a room full of desks. I have thus far resisted giving it a fancy nam
 *   [Ye Tao](https://www.linkedin.com/in/ye-tao-12430a167/) (PhD)
 *   [Yu Wu](https://www.linkedin.com/in/yu-wu-b69283269/) (PhD)
 
-**Undergraduate Students:**
+**Undergraduate Students/WINLAB Interns:**
 
+*   Haider Abdelrahman (Rutgers), Summer 2023 [WINLAB Summer Internship](https://www.winlab.rutgers.edu/prospective-students/summer-internship/)
 *   [Yunhyuk Chang](https://www.linkedin.com/in/yunhyuk-chang-356715202) (Rutgers), Summer 2023 [WINLAB Summer Internship](https://www.winlab.rutgers.edu/prospective-students/summer-internship/)
 *   Nicholas DiGirolamo (Rutgers), Summer 2023 [Aresty Program](https://aresty.rutgers.edu)
+*   Lakshya Gour (Rutgers), Summer 2023 [WINLAB Summer Internship](https://www.winlab.rutgers.edu/prospective-students/summer-internship/)
 *   [Nicole Le](https://www.linkedin.com/in/nicole-le-426072238/) (Rutgers), Summer 2023 [SUPER REU](https://douglass.rutgers.edu/wise/project-super)
+*   Tanushree Mehta (Rutgers), Summer 2023 [WINLAB Summer Internship](https://www.winlab.rutgers.edu/prospective-students/summer-internship/)
 *   Ava Ostrom (Rutgers), Summer 2023 [SUPER REU](https://douglass.rutgers.edu/wise/project-super)
 *   [Victoria Parizot](https://www.linkedin.com/in/martha-victoria-parizot-52214122b/) (Harvey Mudd), Summer 2023 [DIMACS REU](http://reu.dimacs.rutgers.edu/)
-*   Haider Abdelrahman (Rutgers), Summer 2023 [WINLAB Summer Internship](https://www.winlab.rutgers.edu/prospective-students/summer-internship/)
 *   [Jose Hoyos Sanchez](https://www.linkedin.com/in/jose-hoyos-sanchez/) (University of Central Florida), Summer 2023 [RiSE REU](http://rise.rutgers.edu/)
+*   Shreya Venugopal, Summer 2023 [WINLAB Summer Internship](https://www.winlab.rutgers.edu/prospective-students/summer-internship/)
+
 
 **For prospective graduate students:** Rutgers is an exciting place to learn and grow as an engineer. If you are specifically interested in my research, please look at my publications and projects. If you are applying to the department and want to pursue a Ph.D., apply to the Ph.D. program and mention your research interests in your statement. If you have _specific questions about my research_, feel free to contact me and mention that you have read this particular webpage. Unfortunately, I generally do not have the time to respond to general inquiries from potential students. I will not respond to emails that only contain a CV and a request for admission to my research group. 
 
@@ -59,10 +63,9 @@ Here is a list of previous students, postdocs, and visitors who have worked with
 *   [Liyang Xie](https://www.linkedin.com/in/li-yang-xie-77163baa/) (MS 2015)  
     * MS Thesis: [_Comparison of two models in differentially private distributed learning_](https://rucore.libraries.rutgers.edu/rutgers-lib/49347/)
 
-**Past Visiting Graduate Students**
+**Past Visiting Graduate Students and Interns**
 
-*   [Simón Oya Díez](https://simon-oya.github.io/) (graduate, University of Vigo)  
-    Visiting student from [Prof. Fernando Pérez-González's group](http://gpsc.uvigo.es/fernando-perez-gonzalez)
+*   [Simón Oya Díez](https://simon-oya.github.io/) (graduate, University of Vigo), visiting student from [Prof. Fernando Pérez-González's group](http://gpsc.uvigo.es/fernando-perez-gonzalez)
 
 **Past Undergraduate Students**
 
@@ -73,7 +76,7 @@ Here is a list of previous students, postdocs, and visitors who have worked with
 *   [Yuxiao Qu](https://cohenqu.github.io/) (CUHK), Summer 2020
 *   [Soo Min Kwon](https://www.linkedin.com/in/soo-min-kwon-215ba114b/) (Rutgers), AY 2019-2020 [JJ Slade Researcher](https://soe.rutgers.edu/slade)
 *   [Jordan Troutman](https://www.linkedin.com/in/jordantroutman/) (UMBC), Summer 2018 [RiSE REU](http://rise.rutgers.edu/)
-*   [Michael Yang](https://www.linkedin.com/in/michaelwyang/)(Minerva KGI), Summer 2018 [DIMACS REU](http://reu.dimacs.rutgers.edu/)
+*   [Michael Yang](https://www.linkedin.com/in/michaelwyang/) (Minerva KGI), Summer 2018 [DIMACS REU](http://reu.dimacs.rutgers.edu/)
 *   [Priyanka Mohandas](https://www.likedin.com/in/priyanka-mohandas-766889164/) (Rutgers), Summer 2018 [SUPER REU](https://douglass.rutgers.edu/wise/project-super)
 *   [Anushka Desai](https://www.linkedin.com/in/anushka-desai-1b474714b/) (Rutgers), Fall 2017 - Spring 2018 [Aresty Program](https://aresty.rutgers.edu)
 *   [Kevin Sun](https://users.cs.duke.edu/~ksun/) (Rutgers), Fall 2015 - Spring 2017 [Aresty Program](https://aresty.rutgers.edu)
