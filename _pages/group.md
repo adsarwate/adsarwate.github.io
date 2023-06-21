@@ -71,7 +71,7 @@ Here is a list of previous students, postdocs, and visitors who have worked with
 
 *   [Cheng-Hao "Harry" Fu](https://cs-people.bu.edu/chenghao/) (University of Michigan), Summer 2021 [DIMACS REU](http://reu.dimacs.rutgers.edu/)
 *   [Ashley Hart](https://ashleybhart.com/) (University of Central Florida), Summer 2021 [RiSE REU](http://rise.rutgers.edu/)
-*   [Ken Erickson](https://www.linkedin.com/in/ken-erickson-a79b8616b/) (Rutgers), Fall 2020 - Spring 2021
+*   [Ken Erickson](https://www.linkedin.com/in/kenneth-erickson-a79b8616b/) (Rutgers), Fall 2020 - Spring 2021
 *   [Zhenyuan (Desmond) Liu](https://desmondlzy.me/) (CUHK), Summer 2020
 *   [Yuxiao Qu](https://cohenqu.github.io/) (CUHK), Summer 2020
 *   [Soo Min Kwon](https://www.linkedin.com/in/soo-min-kwon-215ba114b/) (Rutgers), AY 2019-2020 [JJ Slade Researcher](https://soe.rutgers.edu/slade)
