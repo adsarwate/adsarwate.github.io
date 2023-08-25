@@ -36,7 +36,7 @@ My "lab" is a room full of desks. I have thus far resisted giving it a fancy nam
 
 **For prospective graduate students:** Rutgers is an exciting place to learn and grow as an engineer. If you are specifically interested in my research, please look at my publications and projects. If you are applying to the department and want to pursue a Ph.D., apply to the Ph.D. program and mention your research interests in your statement. If you have _specific questions about my research_, feel free to contact me and mention that you have read this particular webpage. Unfortunately, I generally do not have the time to respond to general inquiries from potential students. I will not respond to emails that only contain a CV and a request for admission to my research group. 
 
-**For undergraduate students:** If you're interested in an undergraduate research opportunity, please feel free to email me. Doing an independent research study is a great way to learn about research and expand your horizons beyond the classroom. 
+**For undergraduate students:** Doing an independent research study is a great way to learn about research and expand your horizons beyond the classroom. If you're interested in an undergraduate research opportunity, please [look at the slides](/assets/pdf/talks/UG_Research_and_Grad_School_2023.pdf) from a presentation I gave about how to get involved with undergraduate research. If you're still interested in a project with me, feel free to email me (but follow the advice in the slides).
 
 #### Past Students and Visitors
 
