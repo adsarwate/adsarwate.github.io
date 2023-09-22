@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Reliability in ML
+title: reliability of ML training
 description: understanding the reliability of ML training 
-img: assets/img/signal_ensemblefig
+img: assets/img/signal_ensemblefig.png
 importance: 6
 category: work
 ---
