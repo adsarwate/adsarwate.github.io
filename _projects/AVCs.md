@@ -1,6 +1,6 @@
 ---
 layout: page
-title: COINSTAC
+title: between shannon and hamming
 description: between worst and average case communication
 img: assets/img/gen_plotkin_geom_cone.png
 importance: 5
