@@ -3,7 +3,7 @@ layout: page
 title: Reliability in ML
 description: understanding the reliability of ML training 
 img: assets/img/signal_ensemblefig
-importance: 5
+importance: 6
 category: work
 ---
 
