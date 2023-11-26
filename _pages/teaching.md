@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Courses I have taught
 nav: true
 nav_order: 4
 ---
@@ -15,7 +15,7 @@ nav_order: 4
 
 I have taught this junior-level introduction to signals and systems for several years. In Fall 2022 I'll start the process of flipping the class using the video lectures developed during the last two years of remote instruction. 
 
-**Semesters**: Fall 2022, Fall 2021 (online), Fall 2020 (online), Fall 2019, Fall 2018, Fall 2017
+**Semesters**: Fall 2023, Fall 2022, Fall 2021 (online), Fall 2020 (online), Fall 2019, Fall 2018, Fall 2017
 
 #### Principles of Communication Systems (ECE 322)
 
@@ -46,7 +46,7 @@ This is an "advanced topics" class covering mathematical tools for analyzing hig
 
 This is a graduate course in statistical inference and machine learning which used to be called "Detection and Estimation Theory."
 
-**Semesters**: Spring 2022, Spring 2021 (online), Spring 2020 (partly online), Spring 2016, Spring 2015
+**Semesters**: Spring 2024, Spring 2022, Spring 2021 (online), Spring 2020 (partly online), Spring 2016, Spring 2015
 
 #### Information Theory and Coding (ECE 542)
 
