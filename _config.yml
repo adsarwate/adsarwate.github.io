@@ -291,7 +291,7 @@ scholar:
   details_layout: bibtex.html
   details_link: Details
 
-  query: "@*[keywords = @techreport || keywords = @inbook]"
+  query: "@techreport, @inbook, @article, @incollection, @inproceedings, @phdthesis, @mastersthesis"
   sort_by: year, month
   order: descending, descending
   type_order: [techreport, inbook, article, incollection, inproceedings, phdthesis, mastersthesis]
