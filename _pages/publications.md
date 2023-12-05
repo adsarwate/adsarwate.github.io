@@ -9,6 +9,6 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">	
 
-{% bibliography --template bib --group_by type,year --group_order ascending,descending --query !@unpublished,!@conference %}
+{% bibliography --template bib --group_by type,year --group_order ascending,descending %}
 
 </div>
