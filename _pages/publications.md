@@ -19,6 +19,11 @@ nav_order: 1
 		{% bibliography -f {{ site.scholar.bibliography }} -q @techreport[year={{y}}]* %}
 {% endfor %}
 
+<h2>Book Chapters</h2>
+{%- for y in page.years %}
+		{% bibliography -f {{ site.scholar.bibliography }} -q @inbook[year={{y}}]* %}
+{% endfor %}
+
 <h2>Journal Papers</h2>
 {%- for y in page.years %}
 		{% bibliography -f {{ site.scholar.bibliography }} -q @article[year={{y}}]* %}
@@ -26,16 +31,10 @@ nav_order: 1
 
 <h2>Conference Papers</h2>
 {%- for y in page.years %}
-	{%- for m in page.months %}
-		{% bibliography -f {{ site.scholar.bibliography }} -q @incollection[year={{y}},month={{m}}]* %}
-		{% bibliography -f {{ site.scholar.bibliography }} -q @inproceedings[year={{y}},month={{m}}]* %}
-	{% endfor %}	
+		{% bibliography -f {{ site.scholar.bibliography }} -q @incollection[year={{y}}]* %}
+		{% bibliography -f {{ site.scholar.bibliography }} -q @inproceedings[year={{y}}]* %}
 {% endfor %}	
 
-<h2>Book Chapters</h2>
-{%- for y in page.years %}
-		{% bibliography -f {{ site.scholar.bibliography }} -q @inbook[year={{y}}]* %}
-{% endfor %}
 
 <h2>Theses</h2>
 
