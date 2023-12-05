@@ -294,8 +294,8 @@ scholar:
   query: "@*"
   sort_by: year, month
   order: descending, descending
-  type_order: [techreport, inbook, article]
-  type_names: {Preprints, Book Chapters, Journal Papers}
+  type_order: [techreport, inbook, article, incollection, inproceedings]
+  type_names: {techreport: Preprints, inbook: Book Chapters, article: Journal Papers, }
 
 badges: # Display different badges for your publications
   altmetric_badge: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
