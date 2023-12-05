@@ -291,10 +291,10 @@ scholar:
   details_layout: bibtex.html
   details_link: Details
 
-  query: "@*"
+  query: "@*[keywords = !@unpublished && !@conference]"
   sort_by: year, month
   order: descending, descending
-  type_order: [techreport, inbook, article, incollection, inproceedings]
+  type_order: [techreport, inbook, article, incollection, inproceedings, phdthesis, mastersthesis]
   type_aliases: {incollection: inproceedings}
   type_names: {techreport: Preprints, inbook: Book Chapters, article: Journal Papers, inproceedings: Conference Papers}
 
