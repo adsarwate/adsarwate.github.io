@@ -11,6 +11,8 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">	
 
+{% bibliography -f sdaza --group_by type %}
+
 <h2>Preprints</h2>
 
 <p><b>NB:</b> ArXiV versions of published conference papers are linked from the conference paper.</p>
