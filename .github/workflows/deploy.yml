@@ -64,7 +64,8 @@ on:
 permissions:
   contents: write
 
-using: 'node20'
+runs:
+  using: 'node20'
   main: 'main.js'
 
 jobs:
