@@ -14,10 +14,6 @@ on:
 permissions:
   contents: write
 
-runs:
-  using: 'node20'
-  main: 'main.js'
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
