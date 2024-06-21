@@ -139,7 +139,7 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
-  repo: adsarwate/adsarwate.github.iu      # <your-github-user-name>/<your-github-repo-name>
+  repo: adsarwate/adsarwate.github.io      # <your-github-user-name>/<your-github-repo-name>
   repo_id: 
   category: Comments             # name of the category under which discussions will be created
   category_id: 
@@ -294,9 +294,9 @@ scholar:
   query: "@techreport, @inbook, @article, @incollection, @inproceedings, @phdthesis, @mastersthesis"
   sort_by: year, month
   order: descending, descending
-  type_order: [techreport, inbook, article, incollection, inproceedings, phdthesis, mastersthesis]
-  type_aliases: {incollection: inproceedings, phdthesis: thesis, mastersthesis: thesis}
-  type_names: {techreport: Preprints, inbook: Book Chapters, article: Journal Papers, inproceedings: Conference Papers, thesis: Theses}
+  type_order: [techreport, inbook, book, article, incollection, inproceedings, phdthesis, mastersthesis]
+  type_aliases: {incollection: inproceedings, phdthesis: thesis, mastersthesis: thesis book: inbook}
+  type_names: {techreport: Preprints, inbook: Monographs and Book Chapters, article: Journal Papers, inproceedings: Conference Papers, thesis: Theses}
 
 badges: # Display different badges for your publications
   altmetric_badge: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
