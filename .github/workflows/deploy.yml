@@ -64,6 +64,9 @@ on:
 permissions:
   contents: write
 
+using: 'node20'
+  main: 'main.js'
+
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
