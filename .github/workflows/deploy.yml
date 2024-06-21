@@ -27,7 +27,7 @@ jobs:
         bundler-cache: true
     - name: Install and Build 🔧
       run: |
-        @mermaid-js/mermaid-cli
+        npm install -g @mermaid-js/mermaid-cli
         bundle exec jekyll build
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
