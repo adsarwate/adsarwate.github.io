@@ -22,8 +22,6 @@ My "lab" is a room full of desks. I have thus far resisted giving it a fancy nam
 
 **Undergraduate Students/WINLAB Interns:**
 
-*   [Irina Mukhametzhanova](https://www.linkedin.com/in/irina-mukhametzhanova-4614b71b3) (Rutgers), Fall 2023 - Spring 2024 [Aresty Program](https://aresty.rutgers.edu)
-
 **For prospective graduate students:** Rutgers is an exciting place to learn and grow as an engineer. If you are specifically interested in my research, please look at my publications and projects. If you are applying to the department and want to pursue a Ph.D., apply to the Ph.D. program and mention your research interests in your statement. If you have _specific questions about my research_, feel free to contact me and mention that you have read this particular webpage. Unfortunately, I generally do not have the time to respond to general inquiries from potential students. I will not respond to emails that only contain a CV and a request for admission to my research group. 
 
 **For undergraduate students:** Doing an independent research study is a great way to learn about research and expand your horizons beyond the classroom. If you're interested in an undergraduate research opportunity, please [look at the slides](/assets/pdf/talks/URDD_Slides_2023.pdf) from a presentation I gave about how to get involved with undergraduate research. If you're still interested in a project with me, feel free to email me (but follow the advice in the slides).
@@ -36,29 +34,49 @@ Here is a list of previous students, postdocs, and visitors who have worked with
 
 *   Jeffrey Isaacs (MS 2022)
     * MS Thesis: [_Global Indoor 2D Localization Using Polygon Edge Visibility Decomposition_](https://rucore.libraries.rutgers.edu/rutgers-lib/69112/)
-*   [Sijie Xiong](http://www.ece.rutgers.edu/~sx37/) (PhD 2022) (co-advised with [Narayan Mandayam](http://www.winlab.rutgers.edu/~narayan/))
+    * Nokia Bell Labs, New Jersey
+
+*   [Sijie Xiong](https://www.linkedin.com/in/sijie-xiong-48aba63a/) (PhD 2022) (co-advised with [Narayan Mandayam](http://www.winlab.rutgers.edu/~narayan/))
     * PhD Thesis: [_PERMIT: Privacy-Enabled Resource Management for Internet of Things Networks_](https://rucore.libraries.rutgers.edu/rutgers-lib/67108/)
-*   [Soo Min Kwon](https://www.linkedin.com/in/soo-min-kwon-215ba114b/) (MS 2022)
+    * Principal Engineer, Huawei
+
+*   [Soo Min Kwon](https://soominkwon.github.io/) (MS 2022)
     * MS Thesis: [_Optimization Problems with Low-Dimensional Tensor Structure_](https://rucore.libraries.rutgers.edu/rutgers-lib/67410/)
+    * PhD student, University of Michigan
+
+
 *   [Mohsen Rajabpour](https://www.linkedin.com/in/mohsen-rajabpour-b5b897105/) (PhD 2022) (co-advised with [Narayan Mandayam](http://www.winlab.rutgers.edu/~narayan/))
     * PhD Thesis: [_Modeling prosumer behavior in the smart grid and implementing privacy design in IoT_](https://rucore.libraries.rutgers.edu/rutgers-lib/67069/)
+    * Lead Data Scientist, OCLC.
+
 *   [Konstantinos Nikolakakis](https://knikolakakis.org/) (MS/PhD 2021)  
     * PhD Thesis: [_Learning Tree Structured Models from Noisy Data_](https://rucore.libraries.rutgers.edu/rutgers-lib/66047/)
+    * Postdoc, Yale.
+
 *   [Mohsen Ghassemi](https://www.ece.rutgers.edu/~mg975/) (MS/PhD 2020)
 	* MS Thesis: [_From coordinate descent to social sampling_](https://rucore.libraries.rutgers.edu/rutgers-lib/49967/)
 	* PhD Thesis: [_Nonconvex Matrix and Tensor Recovery with Applications in Machine Learning_](https://rucore.libraries.rutgers.edu/rutgers-lib/65376/)
+	* AI Research Lead, JP Morgan AI Research.
+
 *   [Hafiz Imtiaz](https://hafizimtiaz.buet.ac.bd/) (PhD 2020)
     * PhD Thesis: [_Decentralized Differentially Private Algorithms for Matrix and Tensor Factorization_](https://rucore.libraries.rutgers.edu/rutgers-lib/62938/)
+    * Associate Professor, Bangladesh University of Engineering and Technology (BUET)
+
 *   [Jafar Mohammadi](https://www.bell-labs.com/usr/jafar.mohammadi) (Postdoc)
+    * Nokia Bell Labs, Germany
+
 *   [Liyang Xie](https://www.linkedin.com/in/li-yang-xie-77163baa/) (MS 2015)  
     * MS Thesis: [_Comparison of two models in differentially private distributed learning_](https://rucore.libraries.rutgers.edu/rutgers-lib/49347/)
 
 **Past Visiting Graduate Students and Interns**
 
-*   [Simón Oya Díez](https://simon-oya.github.io/) (graduate, University of Vigo), visiting student from [Prof. Fernando Pérez-González's group](http://gpsc.uvigo.es/fernando-perez-gonzalez)
+*   [Simón Oya Díez](https://simonoya.com/) 
+   * Visited from from [University of Vigo](http://gpsc.uvigo.es/fernando-perez-gonzalez)
+   * Assistant Professor, University of British Columbia
 
 **Past Undergraduate Students**
 
+*   [Irina Mukhametzhanova](https://www.linkedin.com/in/irina-mukhametzhanova-4614b71b3) (Rutgers), Fall 2023 - Spring 2024 [Aresty Program](https://aresty.rutgers.edu)
 *   Haider Abdelrahman (Rutgers), Summer 2023 [WINLAB Summer Internship](https://www.winlab.rutgers.edu/prospective-students/summer-internship/)
 *   [Yunhyuk Chang](https://www.linkedin.com/in/yunhyuk-chang-356715202) (Rutgers), Summer 2023 [WINLAB Summer Internship](https://www.winlab.rutgers.edu/prospective-students/summer-internship/)
 *   Nicholas DiGirolamo (Rutgers), Summer 2023 [Aresty Program](https://aresty.rutgers.edu)
