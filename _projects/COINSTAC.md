@@ -2,7 +2,7 @@
 layout: page
 title: COINSTAC
 description: collaborative science with privacy
-img: assets/img/coinstac_logo.png
+img: assets/img/djica_fig.png
 importance: 2
 category: work
 ---
