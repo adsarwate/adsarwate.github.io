@@ -17,6 +17,10 @@ RINGS: REALTIME: Resilient Edge-cloud Autonomous Learning with Timely Inferences
 COINSTAC 2.0: Decentralized, Scalable Analysis of Loosely Coupled Data  
 (PI: Vince Calhoun (GSU) -- subaward to Rutgers: Anand D. Sarwate (PI))
 
+## Past/completed projects
+
+The actual work is often ongoing but at some point the clock (and money) runs out...
+
 * \[NSF\] [CCF-1910110](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1910110)  
 CIF: Small: ESTRELLA: Exploiting Structure in Tensors for Representation, Estimation, and Limits of Learning Algorithms  
 (PI: Anand D. Sarwate, Co-PI: Waheed U. Bajwa)
@@ -24,10 +28,6 @@ CIF: Small: ESTRELLA: Exploiting Structure in Tensors for Representation, Estima
 * \[NSF\] [CCF-1909468](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1909468)  
 CIF: Small: Collaborative Research: Between Shannon and Hamming  
 (PI: Anand D. Sarwate, Co-PI: Michael Langberg)
-
-## Past/completed projects
-
-The actual work is often ongoing but at some point the clock (and money) runs out...
 
 * \[NSF\] [SaTC-1617849](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1617849)  
 TWC: Small: PERMIT: Privacy-Enabled Resource Management for IoT Networks  
