@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Tensor-based SP and ML
-description: tensor structure statistical models
+title: structured tensors in statistics and learning
+description: tensor-structured statistical models
 img: assets/img/lsr_decomp.png
 importance: 3
 category: work

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: reliability of ML training
+title: measuring variability of ML training
 description: understanding the reliability of ML training 
 img: assets/img/signal_ensemblefig.png
 importance: 6

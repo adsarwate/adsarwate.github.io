@@ -1,6 +1,6 @@
 ---
 layout: page
-title: REALTIME
+title: latency in mobile edge cloud systems
 description: latency-sensitive ML at the edge
 img: assets/img/realtime.png
 importance: 4

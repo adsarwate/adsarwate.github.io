@@ -1,6 +1,6 @@
 ---
 layout: page
-title: between shannon and hamming
+title: adversarial models for communication
 description: between worst and average case communication
 img: assets/img/gen_plotkin_geom_cone.png
 importance: 5

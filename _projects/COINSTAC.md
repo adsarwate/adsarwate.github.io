@@ -1,6 +1,6 @@
 ---
 layout: page
-title: COINSTAC
+title: federated learning for neuroimaging
 description: collaborative science with privacy
 img: assets/img/djica_fig.png
 importance: 2
