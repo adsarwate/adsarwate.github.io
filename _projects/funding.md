@@ -1,6 +1,6 @@
 ---
 layout: page
-title: support
+title: grants and financial support (thanks!)
 description: some of my research has been supported by various grants
 img: assets/img/thinking_face.png
 importance: 1
