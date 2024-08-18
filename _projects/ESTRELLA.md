@@ -1,6 +1,6 @@
 ---
 layout: page
-title: structured tensors in statistics and learning
+title: structured tensors in stat/ml
 description: tensor-structured statistical models
 img: assets/img/lsr_decomp.png
 importance: 3
