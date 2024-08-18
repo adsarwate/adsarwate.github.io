@@ -1,6 +1,6 @@
 ---
 layout: page
-title: adversarial models for communication
+title: adversarial communication models
 description: between worst and average case communication
 img: assets/img/gen_plotkin_geom_cone.png
 importance: 5
