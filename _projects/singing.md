@@ -2,7 +2,7 @@
 layout: page
 title: music
 description: singing
-img: assets/img/solo.png
+img: assets/img/solo.jpg
 importance: 1
 category: fun
 ---
