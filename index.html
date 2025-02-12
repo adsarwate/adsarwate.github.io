@@ -1,720 +1,805 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <!-- Head -->
   <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
+    <!-- Metadata, OpenGraph and Schema.org -->
 
-    <!-- Standard metadata -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Anand D. Sarwate</title>
-    <meta name="author" content="Anand D. Sarwate">
-    <meta name="description" content="The homepage of Dr. Anand D. Sarwate, currently a faculty member at Rutgers University.
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    You R. Name
+  
+</title>
+<meta name="author" content="You R. Name">
+<meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
-    <meta name="keywords" content="sarwate, rutgers, information theory, signal processing, differential privacy">
+
+  <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
-    <!-- Bootstrap & MDB -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
 
-    <!-- Bootstrap Table -->
-    <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.3/dist/bootstrap-table.min.css">
 
-    <!-- Fonts & Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
-    <!-- Code Syntax Highlighting -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
 
-    
 
-    <!-- Styles -->
-    
-    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%8C%8E&lt;/text&gt;&lt;/svg&gt;">
-    
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://adsarwate.github.io/">
 
-    <!-- Dark Mode -->
-    
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+
+<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="https://adsarwate.github.io/">
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script>
+
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
 
   </head>
 
   <!-- Body -->
   <body class="fixed-top-nav ">
-
     <!-- Header -->
     <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
 
-      <!-- Nav Bar -->
-      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
-        <div class="container">
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
           
-          <!-- Navbar Toggle -->
-          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar top-bar"></span>
-            <span class="icon-bar middle-bar"></span>
-            <span class="icon-bar bottom-bar"></span>
-          </button>
 
-          <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-
-              <!-- About -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/">about<span class="sr-only">(current)</span></a>
-              </li>
+          <!-- About -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/">about
               
-              <!-- Blog -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/blog/">blog</a>
-              </li>
+                <span class="sr-only">(current)</span>
+              
+            </a>
+          </li>
 
-              <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/publications/">publications</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/projects/">projects</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/group/">group/"lab"</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/teaching/">teaching</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/assets/pdf/SarwateWebCV.pdf">cv</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Scrolling Progress Bar -->
-      <progress id="progress" value="0">
-        <div class="progress-container">
-          <span class="progress-bar"></span>
-        </div>
-      </progress>
-    </header>
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/blog/">blog
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/publications/">publications
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/projects/">projects
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/repositories/">repositories
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/cv/">cv
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/teaching/">teaching
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/people/">people
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">submenus
+                    
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    
+                      
+                        <a class="dropdown-item " href="/publications/">publications</a>
+                      
+                    
+                      
+                        <div class="dropdown-divider"></div>
+                      
+                    
+                      
+                        <a class="dropdown-item " href="/projects/">projects</a>
+                      
+                    
+                      
+                        <div class="dropdown-divider"></div>
+                      
+                    
+                      
+                        <a class="dropdown-item " href="/blog/">blog</a>
+                      
+                    
+                  </div>
+                </li>
+              
+            
+          
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              </button>
+            </li>
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
 
 
     <!-- Content -->
-    <div class="container mt-5">
+    <div class="container mt-5" role="main">
       
-        <!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-           Anand D. Sarwate
-          </h1>
-          <p class="desc">Associate Professor of ECE, Rutgers University, <a href="mailto:anand.sarwate@rutgers.edu">anand.sarwate@rutgers.edu</a></p>
-        </header>
+        <div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      
+        <span class="font-weight-bold">You</span> R.
+        Name
+      
+    </h1>
+    <p class="desc"><a href="#">Affiliations</a>. Address. Contacts. Motto. Etc.</p>
+  </header>
 
-        <article>
-          <div class="profile float-right">
+  <article>
+    
+      <div class="profile float-right">
+        
+          
+          
+          
+          
 
-              <figure>
 
+
+<figure>
   <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Sarwate-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Sarwate-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Sarwate-1400.webp"></source>
+      <source class="responsive-img-srcset" srcset="/assets/img/prof_pic-480.webp 480w,/assets/img/prof_pic-800.webp 800w,/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="(min-width: 930px) 270.0px, (min-width: 576px)
+      30vw, 95vw">
     
+    <img src="/assets/img/prof_pic.jpg?974957d202f671e4fa6700c04e68deae" class="img-fluid z-depth-1
+      rounded" width="100%" height="auto" alt="prof_pic.jpg" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </source></picture>
 
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/Sarwate.jpg" class="img-fluid z-depth-1 rounded-circle" width="auto" height="auto" alt="Sarwate.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
+  
 </figure>
 
-            <div class="address">
-              <p>CoRE Building Rm. 517</p> <p>Busch Campus</p> <p>Rutgers University</p> <p>Piscataway, NJ 08854-8058</p> <p>(848) 445-8516</p>
+        
+        
+          <div class="more-info">
+<p>555 your office number</p> <p>123 your address street</p> <p>Your City, State 12345</p>
+</div>
+        
+      </div>
+    
 
-            </div>
-          </div>
+    <div class="clearfix">
+<p>Write your biography here. Tell the world about yourself. Link to your favorite <a href="http://reddit.com" rel="external nofollow noopener" target="_blank">subreddit</a>. You can put a picture in, too. The code is already in, just name your picture <code class="language-plaintext highlighter-rouge">prof_pic.jpg</code> and put it in the <code class="language-plaintext highlighter-rouge">img/</code> folder.</p>
 
-          <div class="clearfix">
-            <p>I am an Associate Professor in the <a href="https://www.ece.rutgers.edu/" rel="external nofollow noopener" target="_blank">Department of Electrical and Computer Engineering</a> 
-at <a href="https://www.rutgers.edu/" rel="external nofollow noopener" target="_blank">Rutgers, The State University of New Jersey</a>. 
-I also am a member of the graduate faculty in the <a href="https://www.cs.rutgers.edu/" rel="external nofollow noopener" target="_blank">Department of Computer Science</a> 
-and the <a href="https://www.stat.rutgers.edu/" rel="external nofollow noopener" target="_blank">Department of Statistics</a>.
-I like to work on problems that involve probability, mathematical statistics,<br>
-and optimization, with applications in information theory, communication, 
-signal processing, and machine learning. I’m particularly interested in
-how these things intersect in the context of distributed/decentralized
-systems with constraints like privacy, bandwidth, latency, power, and so on.</p>
+<p>Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing <code class="language-plaintext highlighter-rouge">profile</code> property of the YAML header of your <code class="language-plaintext highlighter-rouge">_pages/about.md</code>. Edit <code class="language-plaintext highlighter-rouge">_bibliography/papers.bib</code> and Jekyll will render your <a href="/al-folio/publications/">publications page</a> automatically.</p>
 
-<p>This page is still somewhat under construction. I anticipate that will
-be the state for quite a while.</p>
+<p>Link to your social media connections, too. This theme is set up to use <a href="https://fontawesome.com/" rel="external nofollow noopener" target="_blank">Font Awesome icons</a> and <a href="https://jpswalsh.github.io/academicons/" rel="external nofollow noopener" target="_blank">Academicons</a>, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.</p>
+</div>
 
-          </div>
-
-          <!-- News -->
-          <h2><a href="/news/" style="color: inherit;">news</a></h2>          <div class="news">
-            <div class="table-responsive" style="max-height: 60vw">
-              <table class="table table-sm table-borderless">
+    <!-- News -->
+    
+      <h2>
+        <a href="/news/" style="color: inherit">news</a>
+      </h2>
+      <div class="news">
+  
+    
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        
+        
+        
+          <tr>
+            <th scope="row" style="width: 20%">Jan 15, 2016</th>
+            <td>
               
-                <tr>
-                  <th scope="row">Jan 19, 2024</th>
-                  <td>
-                    To appear at <a href="https://iclr.cc/Conferences/2024/Dates" rel="external nofollow noopener" target="_blank">ICLR 2024</a> (spotlight): A. W. Engel, Z. Wang, N. Frank, I. Dumitriu, S. Choudhury, A. Sarwate, T. Chiang, <a href="https://openreview.net/forum?id=yKksu38BpM" rel="external nofollow noopener" target="_blank"><i>Faithful and Efficient Explanations for Neural Networks via Neural Tangent Kernel Surrogate Models</i></a>.<br><br>
+                A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">
 
-To appear at <a href="https://2024.ieeeicassp.org/" rel="external nofollow noopener" target="_blank">ICASSP 2024</a>:  J. Hoyos Sanchez, B. Taki,, W. U. Bajwa, A. D. Sarwate, <i>Federated Learning of Tensor Generalized Linear Models with Low Separation Rank</i>.<br><br>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <th scope="row" style="width: 20%">Nov 07, 2015</th>
+            <td>
+              
+                <a class="news-title" href="/news/announcement_2/">A long announcement with details</a>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <th scope="row" style="width: 20%">Oct 22, 2015</th>
+            <td>
+              
+                A simple inline announcement.
 
-I’m teaching ECE 549 this semester, which was traditionally called Detection and Estimation Theory.
+              
+            </td>
+          </tr>
+        
+      </table>
+    </div>
+  
+</div>
 
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">Nov 27, 2023</th>
-                  <td>
-                    I have been appointed as a Distinguished Lecturer for 2024-2025 by the IEEE Information Theory Society. I’m happy to visit to give a talk!
+    
 
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">Nov 22, 2023</th>
-                  <td>
-                    I received the Outstanding Engineering Professor Award from the Rutgers School of Engineering!
+    <!-- Latest posts -->
+    
+      <h2>
+        <a href="/blog/" style="color: inherit">latest posts</a>
+      </h2>
+      <div class="news">
+  
+    
+    <div class="table-responsive" style="max-height: 60vw">
+      <table class="table table-sm table-borderless">
+        
+        
+        
+          <tr>
+            <th scope="row" style="width: 20%">Dec 04, 2024</th>
+            <td>
+              
+                <a class="news-title" href="/blog/2024/photo-gallery/">a post with image galleries</a>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <th scope="row" style="width: 20%">May 14, 2024</th>
+            <td>
+              
+                <a class="news-title" href="https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/" target="_blank" rel="external nofollow noopener">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</a>
+                <svg width="2rem" height="2rem" viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              
+            </td>
+          </tr>
+        
+          <tr>
+            <th scope="row" style="width: 20%">May 01, 2024</th>
+            <td>
+              
+                <a class="news-title" href="/blog/2024/tabs/">a post with tabs</a>
+              
+            </td>
+          </tr>
+        
+      </table>
+    </div>
+  
+</div>
 
+    
 
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">Sep 22, 2023</th>
-                  <td>
-                    Some recent activity:
-
-<ul>
-  <li>
-<em>Critical AI and Design Justice: An Interview with Sasha Costanza-Chock</em>, to appear in <a href="https://www.dukeupress.edu/critical-ai" rel="external nofollow noopener" target="_blank">Critical AI</a>. This is the transcript of a panel interview with <a href="https://www.schock.cc/" rel="external nofollow noopener" target="_blank">Sasha Costanza-Chock</a>, author of <a href="https://designjustice.mitpress.mit.edu/" rel="external nofollow noopener" target="_blank">Design Justice</a>.</li>
-  <li>Zhichao Wang, Andrew Engel, Anand Sarwate, Ioana Dumitriu, Tony Chiang, <a href="https://openreview.net/forum?id=gpqBGyKeKH" rel="external nofollow noopener" target="_blank"><em>Spectral Evolution and Invariance in Linear-width Neural Networks</em></a>, accepted to NeurIPS 2023.</li>
-</ul>
-
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">Jun 20, 2023</th>
-                  <td>
-                    A few new papers to appear:
-
-<ul>
-  <li>D. Martin et al. “Enhancing Collaborative Neuroimaging Research: Introducing COINSTAC Vaults for Federated Analysis and Reproducibility”, to Frontiers in Neuroinformatics.</li>
-  <li>Z. Wang et al., “Spectral Evolution and Invariance in Linear-width Neural Networks”, to the ICML 2023 High-dimensional Learning Dynamics Workshop.</li>
-  <li>D. Saha et al, “Federated, Fast, and Private Visualization of Decentralized Data”, to the ICML 2023 Workshop on Federated Learning and Analytics in Practice: Algorithms, Systems, Applications, and Opportunities.</li>
-</ul>
-
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </div>
-
-          <!-- Latest posts -->
-          
-
-          <!-- Selected papers -->
-          <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2>
-          <div class="publications">
-            <ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-<!--
-      <div class="row">
-        <div class="col-sm-10 abbr">
-        <span id="EngelWFDCSC:24explanations">A. W. Engel, Z. Wang, N. Frank, I. Dumitriu, S. Choudhury, A. Sarwate, and T. Chiang, “Faithful and Efficient Explanations for Neural Networks via Neural Tangent Kernel Surrogate Models,” in <i>The Twelfth International Conference on Learning Representations</i>, Vienna, Austria, 2024.</span>
-		</div>
-	  </div>
--->
-
-<span id="EngelWFDCSC:24explanations">A. W. Engel, Z. Wang, N. Frank, I. Dumitriu, S. Choudhury, A. Sarwate, and T. Chiang, “Faithful and Efficient Explanations for Neural Networks via Neural Tangent Kernel Surrogate Models,” in <i>The Twelfth International Conference on Learning Representations</i>, Vienna, Austria, 2024.</span>
-
-<!-- Links/Buttons -->
-          <div class="links">
-          	<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-          <a href="https://openreview.net/forum?id=yKksu38BpM" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">URL</a>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">EngelWFDCSC:24explanations</span><span class="p">,</span>
-  <span class="na">address</span> <span class="p">=</span> <span class="s">{Vienna, Austria}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Engel, A. W. and Wang, Z. and Frank, N. and Dumitriu, I. and Choudhury, S. and Sarwate, A. and Chiang, T.}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{The Twelfth International Conference on Learning Representations}</span><span class="p">,</span>
-  <span class="na">cvcategory</span> <span class="p">=</span> <span class="s">{archival}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">may</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Faithful and Efficient Explanations for Neural Networks via Neural Tangent Kernel Surrogate Models}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=yKksu38BpM}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-          </li>
-<li>
-<!-- _layouts/bib.html -->
-<!--
-      <div class="row">
-        <div class="col-sm-10 abbr">
-        <span id="TakiSB:24asymptotics">B. Taki, A. D. Sarwate, and W. U. Bajwa, “Low Separation Rank in Tensor Generalized Linear Models: an Asymptotic Analysis,” in <i>Proceedings of the 2024 Annual Conference on Information Science and Systems (CISS)</i>, Princeton, NJ, USA, 2024.</span>
-		</div>
-	  </div>
--->
-
-<span id="TakiSB:24asymptotics">B. Taki, A. D. Sarwate, and W. U. Bajwa, “Low Separation Rank in Tensor Generalized Linear Models: an Asymptotic Analysis,” in <i>Proceedings of the 2024 Annual Conference on Information Science and Systems (CISS)</i>, Princeton, NJ, USA, 2024.</span>
-
-<!-- Links/Buttons -->
-          <div class="links">
-          	<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-          
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">TakiSB:24asymptotics</span><span class="p">,</span>
-  <span class="na">address</span> <span class="p">=</span> <span class="s">{Princeton, NJ, USA}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Taki, Batoul and Sarwate, Anand D. and Bajwa, Waheed U.}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 2024 Annual Conference on Information Science and Systems (CISS)}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">mar</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Low Separation Rank in Tensor Generalized Linear Models: an Asymptotic Analysis}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-          </li>
-<li>
-<!-- _layouts/bib.html -->
-<!--
-      <div class="row">
-        <div class="col-sm-10 abbr">
-        <span id="WangESDC:23neurips">Z. Wang, A. Engel, A. Sarwate, I. Dumitriu, and T. Chiang, “Spectral Evolution and Invariance in Linear-width Neural Networks,” in <i>Advances in Neural Information Processing Systems 36 (NeurIPS 2023)</i>, Curran Associates, Inc., 2023.</span>
-		</div>
-	  </div>
--->
-
-<span id="WangESDC:23neurips">Z. Wang, A. Engel, A. Sarwate, I. Dumitriu, and T. Chiang, “Spectral Evolution and Invariance in Linear-width Neural Networks,” in <i>Advances in Neural Information Processing Systems 36 (NeurIPS 2023)</i>, Curran Associates, Inc., 2023.</span>
-
-<!-- Links/Buttons -->
-          <div class="links">
-          	<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-          <a href="https://openreview.net/forum?id=gpqBGyKeKH" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">URL</a>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@incollection</span><span class="p">{</span><span class="nl">WangESDC:23neurips</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wang, Zhichao and Engel, Andrew and Sarwate, Anand and Dumitriu, Ioana and Chiang, Tony}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Advances in Neural Information Processing Systems 36 (NeurIPS 2023)}</span><span class="p">,</span>
-  <span class="na">cvcategory</span> <span class="p">=</span> <span class="s">{archival}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">dec</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Curran Associates, Inc.}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Spectral Evolution and Invariance in Linear-width Neural Networks}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=gpqBGyKeKH}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-          </li>
-<li>
-<!-- _layouts/bib.html -->
-<!--
-      <div class="row">
-        <div class="col-sm-10 abbr">
-        <span id="SahaCKSSP:23dnse:workshop">D. K. Saha, V. Calhoun, S. M. Kwon, A. Sarwate, R. Saha, and S. Plis, “Federated, Fast, and Private Visualization of Decentralized Data,” in <i>Federated Learning and Analytics in Practice: Algorithms, Systems, Applications, and Opportunities (FL-ICML 2023)</i>, 2023.</span>
-		</div>
-	  </div>
--->
-
-<span id="SahaCKSSP:23dnse:workshop">D. K. Saha, V. Calhoun, S. M. Kwon, A. Sarwate, R. Saha, and S. Plis, “Federated, Fast, and Private Visualization of Decentralized Data,” in <i>Federated Learning and Analytics in Practice: Algorithms, Systems, Applications, and Opportunities (FL-ICML 2023)</i>, 2023.</span>
-
-<!-- Links/Buttons -->
-          <div class="links">
-          	<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-          <a href="https://openreview.net/forum?id=XkfbFUqvek" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">URL</a>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">SahaCKSSP:23dnse:workshop</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Saha, Debbrata Kumar and Calhoun, Vince and Kwon, Soo Min and Sarwate, Anand and Saha, Rekha and Plis, Sergey}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Federated Learning and Analytics in Practice: Algorithms, Systems, Applications, and Opportunities (FL-ICML 2023)}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">jul</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Federated, Fast, and Private Visualization of Decentralized Data}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://openreview.net/forum?id=XkfbFUqvek}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-          </li>
-<li>
-<!-- _layouts/bib.html -->
-<!--
-      <div class="row">
-        <div class="col-sm-10 abbr">
-        <span id="LKJLS:23efficient">S. Li, P. Krishan, S. Jaggi, M. Langberg, and A. D. Sarwate, “Computationally Efficient Codes for Adversarial Binary-Erasure Channels,” in <i>Proceedings of the 2023 IEEE International Symposium on Information Theory (ISIT)</i>, 2023, pp. 228–233.</span>
-		</div>
-	  </div>
--->
-
-<span id="LKJLS:23efficient">S. Li, P. Krishan, S. Jaggi, M. Langberg, and A. D. Sarwate, “Computationally Efficient Codes for Adversarial Binary-Erasure Channels,” in <i>Proceedings of the 2023 IEEE International Symposium on Information Theory (ISIT)</i>, 2023, pp. 228–233.</span>
-
-<!-- Links/Buttons -->
-          <div class="links">
-          	<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-          
-          	<a href="https://doi.org/10.1109/ISIT54713.2023.10206731" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">LKJLS:23efficient</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Li, Sijie and Krishan, Prasad and Jaggi, Sidharth and Langberg, Michael and Sarwate, Anand D}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 2023 IEEE International Symposium on Information Theory (ISIT)}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/ISIT54713.2023.10206731}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">jun</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{228--233}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Computationally Efficient Codes for Adversarial Binary-Erasure Channels}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1109/ISIT54713.2023.10206731}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-          </li>
-<li>
-<!-- _layouts/bib.html -->
-<!--
-      <div class="row">
-        <div class="col-sm-10 abbr">
-        <span id="Gazula:22federated">H. Gazula, K. Rootes-Murdy, B. Holla, S. Basodi, Z. Zhang, E. Verner, R. Kelly, P. Murthy, A. Chakrabarti, D. Basu, S. Bhagyalakshmi Nanjayya, R. Lenin Singh, R. Lourembam Singh, K. Kalyanram, K. Kartik, K. Kalyanaraman, K. Ghattu, R. Kuriyan, S. S. Kurpad, G. J. Barker, R. D. Bharath, S. Desrivieres, M. Purushottam, D. P. Orfanos, E. Sharma, M. Hickman, M. Toledano, N. Vaidya, T. Banaschewski, A. L. W. Bokde, H. Flor, A. Grigis, H. Garavan, P. Gowland, A. Heinz, R. Brühl, J.-L. Martinot, M.-L. Paillére Martinot, E. Artiges, F. Nees, T. Paus, L. Poustka, J. H. Fröhner, L. Robinson, M. N. Smolka, H. Walter, J. Winterer, R. Whelan, J. A. Turner, A. D. Sarwate, <i>et al.</i>, “Federated Analysis in COINSTAC Reveals Functional Network Connectivity and Spectral Links to Smoking and Alcohol Consumption in Nearly 2,000 Adolescent Brains,” <i>Neuroinformatics</i>, vol. 21, pp. 287–301, Apr. 2023.</span>
-		</div>
-	  </div>
--->
-
-<span id="Gazula:22federated">H. Gazula, K. Rootes-Murdy, B. Holla, S. Basodi, Z. Zhang, E. Verner, R. Kelly, P. Murthy, A. Chakrabarti, D. Basu, S. Bhagyalakshmi Nanjayya, R. Lenin Singh, R. Lourembam Singh, K. Kalyanram, K. Kartik, K. Kalyanaraman, K. Ghattu, R. Kuriyan, S. S. Kurpad, G. J. Barker, R. D. Bharath, S. Desrivieres, M. Purushottam, D. P. Orfanos, E. Sharma, M. Hickman, M. Toledano, N. Vaidya, T. Banaschewski, A. L. W. Bokde, H. Flor, A. Grigis, H. Garavan, P. Gowland, A. Heinz, R. Brühl, J.-L. Martinot, M.-L. Paillére Martinot, E. Artiges, F. Nees, T. Paus, L. Poustka, J. H. Fröhner, L. Robinson, M. N. Smolka, H. Walter, J. Winterer, R. Whelan, J. A. Turner, A. D. Sarwate, <i>et al.</i>, “Federated Analysis in COINSTAC Reveals Functional Network Connectivity and Spectral Links to Smoking and Alcohol Consumption in Nearly 2,000 Adolescent Brains,” <i>Neuroinformatics</i>, vol. 21, pp. 287–301, Apr. 2023.</span>
-
-<!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-          	<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-          
-          	<a href="https://doi.org/10.1007/s12021-022-09604-4" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>With the growth of decentralized/federated analysis approaches in neuroimaging, the opportunities to study brain disorders using data from multiple sites has grown multi-fold. One such initiative is the Neuromark, a fully automated spatially constrained independent component analysis (ICA) that is used to link brain network abnormalities among different datasets, studies, and disorders while leveraging subject-specific networks. In this study, we implement the neuromark pipeline in COINSTAC, an open-source neuroimaging framework for collaborative/decentralized analysis. Decentralized exploratory analysis of nearly 2000 resting-state functional magnetic resonance imaging datasets collected at different sites across two cohorts and co-located in different countries was performed to study the resting brain functional network connectivity changes in adolescents who smoke and consume alcohol. Results showed hypoconnectivity across the majority of networks including sensory, default mode, and subcortical domains, more for alcohol than smoking, and decreased low frequency power. These findings suggest that global reduced synchronization is associated with both tobacco and alcohol use. This proof-of-concept work demonstrates the utility and incentives associated with large-scale decentralized collaborations spanning multiple sites.</p>
-          </div>
-<!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Gazula:22federated</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Gazula, Harshvardhan and Rootes-Murdy, Kelly and Holla, Bharath and Basodi, Sunitha and Zhang, Zuo and Verner, Eric and Kelly, Ross and Murthy, Pratima and Chakrabarti, Amit and Basu, Debasish and Bhagyalakshmi Nanjayya, Subodh and Lenin Singh, Rajkumar and Lourembam Singh, Roshan and Kalyanram, Kartik and Kartik, Kamakshi and Kalyanaraman, Kumaran and Ghattu, Krishnaveni and Kuriyan, Rebecca and Kurpad, Sunita Simon and Barker, Gareth J. and Bharath, Rose Dawn and Desrivieres, Sylvane and Purushottam, Meera and Orfanos, Dimitri Papadopoulos and Sharma, Eesha and Hickman, Matthew and Toledano, Mireille and Vaidya, Nilakshi and Banaschewski, Tobias and Bokde, Arun L. W. and Flor, Herta and Grigis, Antoine and Garavan, Hugh and Gowland, Penny and Heinz, Andreas and Br{\"u}hl, R{\"u}diger and Martinot, Jean-Luc and Paill{\'e}re Martinot, Marie-Laure and Artiges, Eric and Nees, Frauke and Paus, Tom{\'a}s and Poustka, Luise and Fr{\"o}hner, Juliane H. and Robinson, Lauren and Smolka, Michael N. and Walter, Henrik and Winterer, Jeanne and Whelan, Robert and Turner, Jessica A. and Sarwate, Anand D. and Plis, Sergey M. and Benegal, Vivek and Schumann, Gunter and Calhoun, Vince D. and {IMAGEN Consortium}}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1007/s12021-022-09604-4}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Neuroinformatics}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">apr</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{287--301}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Federated Analysis in COINSTAC Reveals Functional Network Connectivity and Spectral Links to Smoking and Alcohol Consumption in Nearly 2,000 Adolescent Brains}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1007/s12021-022-09604-4}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{21}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-          </li>
-<li>
-<!-- _layouts/bib.html -->
-<!--
-      <div class="row">
-        <div class="col-sm-10 abbr">
-        <span id="WangWSDC:22spectral">Z. Wang, A. Engel, A. Sarwate, I. Dumitriu, and T. Chiang, “Spectral evolution and invariance in linear-width neural networks,” no. arXiv:2211.06506 [cs.LG], ArXiV, Nov-2022.</span>
-		</div>
-	  </div>
--->
-
-<span id="WangWSDC:22spectral">Z. Wang, A. Engel, A. Sarwate, I. Dumitriu, and T. Chiang, “Spectral evolution and invariance in linear-width neural networks,” no. arXiv:2211.06506 [cs.LG], ArXiV, Nov-2022.</span>
-
-<!-- Links/Buttons -->
-          <div class="links">
-          	<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-          
-          	<a href="https://doi.org/10.48550/arXiv.2211.06506" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@unpublished</span><span class="p">{</span><span class="nl">WangWSDC:22spectral</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wang, Zhichao and Engel, Andrew and Sarwate, Anand and Dumitriu, Ioana and Chiang, Tony}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.48550/arXiv.2211.06506}</span><span class="p">,</span>
-  <span class="na">institution</span> <span class="p">=</span> <span class="s">{ArXiV}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">nov</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{arXiv:2211.06506 [cs.LG]}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Spectral evolution and invariance in linear-width neural networks}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-          </li>
-<li>
-<!-- _layouts/bib.html -->
-<!--
-      <div class="row">
-        <div class="col-sm-10 abbr">
-        <span id="ZhangVJS:22myopicgavc">Y. Zhang, S. Vatedka, S. Jaggi, and A. D. Sarwate, “Quadratically Constrained Myopic Adversarial Channels,” <i>IEEE Transactions on Information Theory</i>, vol. 68, pp. 4901–4948, Aug. 2022.</span>
-		</div>
-	  </div>
--->
-
-<span id="ZhangVJS:22myopicgavc">Y. Zhang, S. Vatedka, S. Jaggi, and A. D. Sarwate, “Quadratically Constrained Myopic Adversarial Channels,” <i>IEEE Transactions on Information Theory</i>, vol. 68, pp. 4901–4948, Aug. 2022.</span>
-
-<!-- Links/Buttons -->
-          <div class="links">
-          	<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-          
-          	<a href="https://doi.org/10.1109/TIT.2022.3167554" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">ZhangVJS:22myopicgavc</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Zhang, Yihan and Vatedka, Shashank and Jaggi, Sidharth and Sarwate, Anand D.}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/TIT.2022.3167554}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transactions on Information Theory}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">aug</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{4901--4948}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Quadratically Constrained Myopic Adversarial Channels}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1109/TIT.2022.3167554}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{68}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-          </li>
-<li>
-<!-- _layouts/bib.html -->
-<!--
-      <div class="row">
-        <div class="col-sm-10 abbr">
-        <span id="ZhangJLS:22isit">Y. Zhang, S. Jaggi, M. Langberg, and A. D. Sarwate, “The Capacity of Causal Adversarial Channels,” in <i>Proceedings of the 2022 IEEE International Symposium on Information Theory (ISIT)</i>, 2022.</span>
-		</div>
-	  </div>
--->
-
-<span id="ZhangJLS:22isit">Y. Zhang, S. Jaggi, M. Langberg, and A. D. Sarwate, “The Capacity of Causal Adversarial Channels,” in <i>Proceedings of the 2022 IEEE International Symposium on Information Theory (ISIT)</i>, 2022.</span>
-
-<!-- Links/Buttons -->
-          <div class="links">
-            <a href="https://arxiv.org/abs/2205.06708" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
-          	<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-          
-          	<a href="https://doi.org/10.1109/ISIT50566.2022.9834709" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">ZhangJLS:22isit</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Zhang, Yihan and Jaggi, Sidharth and Langberg, Michael and Sarwate, Anand D.}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 2022 IEEE International Symposium on Information Theory (ISIT)}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/ISIT50566.2022.9834709}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">jun</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{The Capacity of Causal Adversarial Channels}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1109/ISIT50566.2022.9834709}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-          </li>
-<li>
-<!-- _layouts/bib.html -->
-<!--
-      <div class="row">
-        <div class="col-sm-10 abbr">
-        <span id="SathyavageeswaranYSM:22isit">N. Sathyavageeswaran, R. D. Yates, A. D. Sarwate, and N. Mandayam, “Privacy Leakage in Discrete Time Updating Systems,” in <i>Proceedings of the 2022 IEEE International Symposium on Information Theory (ISIT)</i>, 2022.</span>
-		</div>
-	  </div>
--->
-
-<span id="SathyavageeswaranYSM:22isit">N. Sathyavageeswaran, R. D. Yates, A. D. Sarwate, and N. Mandayam, “Privacy Leakage in Discrete Time Updating Systems,” in <i>Proceedings of the 2022 IEEE International Symposium on Information Theory (ISIT)</i>, 2022.</span>
-
-<!-- Links/Buttons -->
-          <div class="links">
-            <a href="https://arxiv.org/abs/2205.15630" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
-          	<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-          
-          	<a href="https://doi.org/10.1109/ISIT50566.2022.9834673" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">SathyavageeswaranYSM:22isit</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Sathyavageeswaran, Nitya and Yates, Roy D. and Sarwate, Anand D. and Mandayam, Narayan}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 2022 IEEE International Symposium on Information Theory (ISIT)}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/ISIT50566.2022.9834673}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">jun</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Privacy Leakage in Discrete Time Updating Systems}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1109/ISIT50566.2022.9834673}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-          </li>
-</ol>
-          </div>
-
-
-          <!-- Social -->
-            <div class="social">
-              <div class="contact-icons">
-                <a href="mailto:%61%6E%61%6E%64.%73%61%72%77%61%74%65@%72%75%74%67%65%72%73.%65%64%75" title="email"><i class="fas fa-envelope"></i></a>
-            <a href="https://orcid.org/0000-0001-6123-5282" title="ORCID" rel="external nofollow noopener" target="_blank"><i class="ai ai-orcid"></i></a>
-            <a href="https://scholar.google.com/citations?user=jgr1-eEAAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
-            <a href="https://github.com/adsarwate" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/anand-sarwate-a0bab3" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com/ergodicwalk" title="Twitter" rel="external nofollow noopener" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://gitlab.com/asarwate" title="GitLab" rel="external nofollow noopener" target="_blank"><i class="fab fa-gitlab"></i></a>
-            <a href="/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
+    <!-- Selected papers -->
+    
+      <h2>
+        <a href="/publications/" style="color: inherit">selected publications</a>
+      </h2>
+      <div class="publications">
+  <ol class="bibliography"><li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">
             
+              <a href="https://journals.aps.org/" rel="external nofollow noopener" target="_blank">PhysRev</a>
+            
+          </abbr>
+        
+      
+      
+    </div>
+  
 
-              </div>
+  <!-- Entry bib key -->
+  <div id="PhysRev.47.777" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?</div>
+    <!-- Author -->
+    <div class="author">
+      
 
-              <div class="contact-note">
-                Email is the best way to reach me: anand.sarwate@rutgers.edu
+      
+      <em>A.
+            Einstein<sup>*†</sup></em>, <a href="https://en.wikipedia.org/wiki/Boris_Podolsky" rel="external nofollow noopener" target="_blank">B.
+              Podolsky<sup>*</sup></a>, and <a href="https://en.wikipedia.org/wiki/Nathan_Rosen" rel="external nofollow noopener" target="_blank">N.
+              Rosen<sup>*</sup></a>
+      
+        <i class="fa-solid fa-circle-info ml-1" data-toggle="popover" data-placement="top" data-html="true" data-content="* Example use of superscripts&lt;br&gt;† Albert Einstein">
+        </i>
+      
+    </div>
 
-              </div>
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>Phys. Rev.</em>, New Jersey. <em>More Information</em> can be <a href="https://github.com/alshedivat/al-folio/" rel="external nofollow noopener" target="_blank">found here</a>
+,  May 1935
+    </div>
+    <div class="periodical">
+      
+    </div>
 
-            </div>
-        </article>
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+        <a href="https://doi.org/10.1103/PhysRev.47.777" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+        
+          <a href="https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="/assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+        <a href="https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Video</a>
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
 
+      
+      
+
+      
+      
+
+      
+      
+      
+        <div class="badges">
+          
+            <span class="altmetric-embed" data-badge-type="2" data-badge-popover="right" data-altmetric-id="248277"></span>
+          
+          
+            <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          
+          
+            <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qc6CJjYAAAAJ&amp;citation_for_view=qc6CJjYAAAAJ:qyhmnyLat1gC" aria-label="Google Scholar link" role="button" rel="external nofollow noopener" target="_blank">
+              <img src="https://img.shields.io/badge/scholar-26K-4285F4?logo=googlescholar&amp;labelColor=beige" alt="26K Google Scholar citations">
+            </a>
+          
+          
+            <a href="https://inspirehep.net/literature/3255" aria-label="Inspirehep link" role="button" rel="external nofollow noopener" target="_blank">
+              <img src="https://img.shields.io/badge/inspire-4.2K-001628?logo=inspire&amp;logoColor=001628&amp;labelColor=beige" alt="4.2K InspireHEP citations">
+            </a>
+          
+        </div>
+      
+    
+
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.</p>
+      </div>
+    
+
+    
+
+    
+  </div>
+</div>
+</li></ol>
+</div>
+
+    
+
+    <!-- Social -->
+    
+      <div class="social">
+        <div class="contact-icons">
+  
+      <a href="mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D" title="email"><i class="fa-solid fa-envelope"></i></a>
+    
+
+  
+      <a href="https://inspirehep.net/authors/1010907" title="Inspire HEP" rel="external nofollow noopener" target="_blank"><i class="ai ai-inspire"></i></a>
+    
+
+  
+      <a href="/feed.xml" title="RSS Feed"><i class="fa-solid fa-square-rss"></i></a>
+    
+
+  
+      <a href="https://scholar.google.com/citations?user=qc6CJjYAAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
+    
+
+  
+      <a href="https://www.alberteinstein.com/" title="Custom Social" rel="external nofollow noopener" target="_blank">
+        
+        
+          <img src="https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png" alt="Custom Social">
+        
+      </a>
+  
+
+</div>
+
+        <div class="contact-note">You can even add a little note about which of these is the best way to reach you.
+</div>
+      </div>
+    
+
+    
+  </article>
 </div>
 
       
     </div>
 
-    <!-- Footer -->    
-    <footer class="fixed-bottom">
-      <div class="container mt-0">
-        © Copyright 2024 Anand D. Sarwate. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
-Last updated: August 18, 2024.
-      </div>
-    </footer>
+    <!-- Footer -->
+    
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      © Copyright 2025
+      You
+      R.
+      Name. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
+
+      
+      
+    </div>
+  </footer>
+
+
 
     <!-- JavaScripts -->
     <!-- jQuery -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <!-- Bootsrap & MDB scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+<!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
 
-    <!-- Masonry & imagesLoaded -->
+
+  <!-- Masonry & imagesLoaded -->
   <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
-    
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- Medium Zoom JS -->
-  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
-  <script defer src="/assets/js/zoom.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
 
-  <!-- Bootstrap Table -->
-  <script defer src="https://unpkg.com/bootstrap-table@1.21.3/dist/bootstrap-table.min.js"></script>
 
-  <!-- Load Common JS -->
-  <script src="/assets/js/no_defer.js"></script>
-  <script defer src="/assets/js/common.js"></script>
-  <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
 
-    
+
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
+<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+<!-- Badges -->
+
   <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
   <script async src="https://badge.dimensions.ai/badge.js"></script>
 
-    <!-- MathJax -->
-  <script type="text/javascript">
-    window.MathJax = {
-      tex: {
-        tags: 'ams'
-      }
-    };
+
+
+  <!-- MathJax -->
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
+  
+    <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script>
+    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+
+
+
+
+
+
+
+  <!-- Back to Top -->
+  <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
+  <script>
+    addBackToTop();
   </script>
-  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
-  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
-    
-    
 
-<!-- Scrolling Progress Bar -->
-<script type="text/javascript">
-  /*
-   * This JavaScript code has been adapted from the article 
-   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
-   * published on the website https://css-tricks.com on the 7th of May, 2014.
-   * Couple of changes were made to the original code to make it compatible 
-   * with the `al-foio` theme.
-   */
-  const progressBar = $("#progress");
-  /*
-   * We set up the bar after all elements are done loading.
-   * In some cases, if the images in the page are larger than the intended
-   * size they'll have on the page, they'll be resized via CSS to accomodate
-   * the desired size. This mistake, however, breaks the computations as the
-   * scroll size is computed as soon as the elements finish loading.
-   * To account for this, a minimal delay was introduced before computing the
-   * values.
-   */
-  window.onload = function () {
-    setTimeout(progressBarSetup, 50);
-  };
-  /*
-   * We set up the bar according to the browser.
-   * If the browser supports the progress element we use that.
-   * Otherwise, we resize the bar thru CSS styling
-   */
-  function progressBarSetup() {
-    if ("max" in document.createElement("progress")) {
-      initializeProgressElement();
-      $(document).on("scroll", function() {
-        progressBar.attr({ value: getCurrentScrollPosition() });
-      });
-      $(window).on("resize", initializeProgressElement);
-    } else {
-      resizeProgressBar();
-      $(document).on("scroll", resizeProgressBar);
-      $(window).on("resize", resizeProgressBar);
-    }
-  }
-  /*
-   * The vertical scroll position is the same as the number of pixels that
-   * are hidden from view above the scrollable area. Thus, a value > 0 is
-   * how much the user has scrolled from the top
-   */
-  function getCurrentScrollPosition() {
-    return $(window).scrollTop();
-  }
 
-  function initializeProgressElement() {
-    let navbarHeight = $("#navbar").outerHeight(true);
-    $("body").css({ "padding-top": navbarHeight });
-    $("progress-container").css({ "padding-top": navbarHeight });
-    progressBar.css({ top: navbarHeight });
-    progressBar.attr({
-      max: getDistanceToScroll(),
-      value: getCurrentScrollPosition(),
-    });
-  }
-  /*
-   * The offset between the html document height and the browser viewport
-   * height will be greater than zero if vertical scroll is possible.
-   * This is the distance the user can scroll
-   */
-  function getDistanceToScroll() {
-    return $(document).height() - $(window).height();
-  }
+  <!-- Search -->
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script>
+  <script src="/assets/js/search-data.js"></script>
+  <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script>
 
-  function resizeProgressBar() {
-    progressBar.css({ width: getWidthPercentage() + "%" });
-  }
-  // The scroll ratio equals the percentage to resize the bar
-  function getWidthPercentage() {
-    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
-  }
-</script>
+
+
 
   </body>
 </html>
