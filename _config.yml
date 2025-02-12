@@ -267,7 +267,7 @@ scholar:
   last_name: [Sarwate]
   first_name: [Anand, D.]
 
-  style: assets/bibliography/ieee-custom
+  style: mla
   locale: en
 
   source: ./_bibliography/
