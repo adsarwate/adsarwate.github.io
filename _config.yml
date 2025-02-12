@@ -265,10 +265,10 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Sarwate]
+  first_name: [Anand, D.]
 
-  style: apa
+  style: assets/bibliography/ieee-custom
   locale: en
 
   source: /_bibliography/
