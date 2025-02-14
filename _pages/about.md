@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:  Associate Professor of ECE, Rutgers University, <a href='mailto:anand.sarwate@rutgers.edu'>anand.sarwate@rutgers.edu</a>
 
 profile:
   align: right
