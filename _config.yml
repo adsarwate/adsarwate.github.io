@@ -284,13 +284,13 @@ scholar:
   details_dir: bibliography
   details_link: Details
 
-#  query: "@*"
-#  group_by: year
-#  group_order: descending
+  query: "@*"
+  group_by: year
+  group_order: descending
 
-  query: "@techreport, @inbook, @article, @incollection, @inproceedings, @phdthesis, @mastersthesis"
-  group_by: type,year
-  group_order: ascending,descending
+#  query: "@techreport, @inbook, @article, @incollection, @inproceedings, @phdthesis, @mastersthesis"
+#  group_by: type,year
+#  group_order: ascending,descending
 
 #  sort_by: year,month
 #  order: descending,descending
