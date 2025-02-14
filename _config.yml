@@ -268,7 +268,7 @@ scholar:
   last_name: [Sarwate]
   first_name: [Anand, D.]
 
-  style: https://github.com/citation-style-language/styles-distribution/blob/master/ieee.csl
+  style: ieee
   locale: en
 
   source: /_bibliography/
