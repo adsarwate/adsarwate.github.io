@@ -289,13 +289,13 @@ scholar:
 #  group_order: descending
 
   query: "@techreport, @inbook, @article, @incollection, @inproceedings, @phdthesis, @mastersthesis"
-  group_by: type
-  group_order: ascending
+  group_by: type,year
+  group_order: ascending,descending
 
   sort_by: year,month
   order: descending,descending
 
-type_order: [techreport, inbook, book, article, incollection, inproceedings, phdthesis, mastersthesis]
+  type_order: [techreport, inbook, book, article, incollection, inproceedings, phdthesis, mastersthesis]
   type_aliases: {incollection: inproceedings, phdthesis: thesis, mastersthesis: thesis, book: inbook}
   type_names: {techreport: Preprints, inbook: Monographs and Book Chapters, article: Journal Papers, inproceedings: Conference Papers, thesis: Theses}
 
