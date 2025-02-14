@@ -292,8 +292,8 @@ scholar:
   group_by: type,year
   group_order: ascending,descending
 
-  sort_by: year,month
-  order: descending,descending
+#  sort_by: year,month
+#  order: descending,descending
 
   type_order: [techreport, inbook, book, article, incollection, inproceedings, phdthesis, mastersthesis]
   type_aliases: {incollection: inproceedings, phdthesis: thesis, mastersthesis: thesis, book: inbook}
