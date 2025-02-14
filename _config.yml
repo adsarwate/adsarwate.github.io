@@ -293,7 +293,7 @@ scholar:
   group_order: ascending
 
   sort_by: year,month
-  order: descending, descending
+  order: descending,descending
 
 type_order: [techreport, inbook, book, article, incollection, inproceedings, phdthesis, mastersthesis]
   type_aliases: {incollection: inproceedings, phdthesis: thesis, mastersthesis: thesis, book: inbook}
