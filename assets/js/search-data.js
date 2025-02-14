@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-group-quot-lab-quot",
+          title: "group/&quot;lab&quot;",
+          description: "Current and past group members",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/group/";
+          },
         },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of your cool projects.",
@@ -32,10 +39,10 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/assets/pdf/SarwateWebCV.pdf";
           },
         },{id: "nav-teaching",
           title: "teaching",
@@ -44,35 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "dropdown-publications",
-              title: "publications",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
-              },
-            },{id: "dropdown-projects",
-              title: "projects",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-image-galleries",
+        },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
@@ -424,16 +403,32 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+    },{id: "news-new-grant-rings-realtime-resilient-edge-cloud-autonomous-learning-with-timely-inferences-co-pis-roy-d-yates-waheed-u-bajwa-and-dipankar-raychaudhuri-we-will-be-looking-at-issues-in-adaptive-edge-cloud-assisted-ml-based-services-from-the-ground-up",
+          title: 'New grant! RINGS: REALTIME: Resilient Edge-cloud Autonomous Learning with Timely Inferences, co-PIs Roy...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-some-new-work-taki-sarwate-bajwa-structured-low-rank-tensors-for-generalized-linear-models-accepted-to-transactions-on-machine-learning-research-tmlr-silk-chakraborty-dasgupta-sarwate-lumsdaine-chang-minibatching-offers-improved-generalization-performance-for-second-order-optimizers-arxiv",
+          title: 'Some new work: Taki, Sarwate, Bajwa, “Structured Low-Rank Tensors for Generalized Linear Models”,...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-finally-mostly-ported-everything-over-to-the-new-site-construction",
+          title: 'Finally mostly ported everything over to the new site… :construction:',
+          description: "",
+          section: "News",},{id: "news-just-returned-from-a-really-fabulous-workshop-on-information-theoretic-methods-for-trustworthy-machine-learning-at-the-simons-institute-for-the-theory-of-computing-at-uc-berkeley-it-was-weird-to-wander-around-a-place-i-lived-20-years-ago-but-really-nice-to-see-old-friends-and-meet-new-people",
+          title: 'Just returned from a really fabulous workshop on Information-Theoretic Methods for Trustworthy Machine...',
+          description: "",
+          section: "News",},{id: "news-a-few-new-papers-to-appear-d-martin-et-al-enhancing-collaborative-neuroimaging-research-introducing-coinstac-vaults-for-federated-analysis-and-reproducibility-to-frontiers-in-neuroinformatics-z-wang-et-al-spectral-evolution-and-invariance-in-linear-width-neural-networks-to-the-icml-2023-high-dimensional-learning-dynamics-workshop-d-saha-et-al-federated-fast-and-private-visualization-of-decentralized-data-to-the-icml-2023-workshop-on-federated-learning-and-analytics-in-practice-algorithms-systems-applications-and-opportunities",
+          title: 'A few new papers to appear: D. Martin et al. “Enhancing Collaborative Neuroimaging...',
+          description: "",
+          section: "News",},{id: "news-some-recent-activity-critical-ai-and-design-justice-an-interview-with-sasha-costanza-chock-to-appear-in-critical-ai-this-is-the-transcript-of-a-panel-interview-with-sasha-costanza-chock-author-of-design-justice-zhichao-wang-andrew-engel-anand-sarwate-ioana-dumitriu-tony-chiang-spectral-evolution-and-invariance-in-linear-width-neural-networks-accepted-to-neurips-2023",
+          title: 'Some recent activity: Critical AI and Design Justice: An Interview with Sasha Costanza-Chock,...',
+          description: "",
+          section: "News",},{id: "news-i-received-the-outstanding-engineering-professor-award-from-the-rutgers-school-of-engineering",
+          title: 'I received the Outstanding Engineering Professor Award from the Rutgers School of Engineering!...',
+          description: "",
+          section: "News",},{id: "news-i-have-been-appointed-as-a-distinguished-lecturer-for-2024-2025-by-the-ieee-information-theory-society-i-m-happy-to-visit-to-give-a-talk",
+          title: 'I have been appointed as a Distinguished Lecturer for 2024-2025 by the IEEE...',
+          description: "",
+          section: "News",},{id: "news-to-appear-at-iclr-2024-spotlight-a-w-engel-z-wang-n-frank-i-dumitriu-s-choudhury-a-sarwate-t-chiang-faithful-and-efficient-explanations-for-neural-networks-via-neural-tangent-kernel-surrogate-models-to-appear-at-icassp-2024-j-hoyos-sanchez-b-taki-w-u-bajwa-a-d-sarwate-federated-learning-of-tensor-generalized-linear-models-with-low-separation-rank-i-m-teaching-ece-549-this-semester-which-was-traditionally-called-detection-and-estimation-theory",
+          title: 'To appear at ICLR 2024 (spotlight): A. W. Engel, Z. Wang, N. Frank,...',
           description: "",
           section: "News",},{id: "projects-adversarial-communication-models",
           title: 'adversarial communication models',
