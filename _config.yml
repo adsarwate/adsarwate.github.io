@@ -295,7 +295,7 @@ scholar:
   group_by: type
 #  group_order: ascending,descending
 
-#  type_order: [techreport, inbook, book, article, incollection, inproceedings, phdthesis, mastersthesis]
+  type_order: [techreport, inbook, book, article, incollection, inproceedings, phdthesis, mastersthesis]
 #  type_aliases: {incollection: inproceedings, phdthesis: thesis, mastersthesis: thesis, book: inbook}
 #  type_names: {techreport: Preprints, inbook: Monographs and Book Chapters, article: Journal Papers, inproceedings: Conference Papers, thesis: Theses}
 
