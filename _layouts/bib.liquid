@@ -194,10 +194,6 @@
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
-      {% else %}
-        {% if entry.url contains '://' %}
-          <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">URL</a>
-        {% endif %}
       {% endif %}
       {% if entry.arxiv contains 'arxiv.org' %}
             <a href="{{entry.arxiv}}" class="btn btn-sm z-depth-0" role="button">ArXiV</a>
