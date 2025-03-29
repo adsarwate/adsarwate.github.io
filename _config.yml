@@ -268,7 +268,7 @@ scholar:
   last_name: [Sarwate]
   first_name: [Anand, D.]
 
-  style:  apa #styles/dependent/ieee-transactions-on-information-theory
+  style:  dependent/ieee-transactions-on-information-theory
   locale: en
 
   source: /_bibliography/
