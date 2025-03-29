@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: https://ergodicity.net/
-title: old-school blog
+title: blog
 nav: true
 nav_order: 1
 ---
