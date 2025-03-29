@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Courses I have taught
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 ## Rutgers Courses
