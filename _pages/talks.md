@@ -22,7 +22,7 @@ Machine Learning and Statistics: From Theory to Practice, Chennai Mathematical I
 * [2024-07-18] [*Learning with Structured
 Tensor Decompositions*](/assets/pdf/talks/2024-07-18_Sarwate_DL_Tensors_AUB.pdf), IEEE ITSOC Distinguished Lecture, Center for Advanced Mathematical Sciences, American University of Beirut
 
-* [2024-07-04] [*Computationally Efficient Codes for Adversarial Binary-Erasure Channels*](/assets/pdf/talks/), Location 2024-07-04_Sarwate_CompEffErasure_Imperial
+* [2024-07-04] [*Computationally Efficient Codes for Adversarial Binary-Erasure Channels*](/assets/pdf/talks/2024-07-04_Sarwate_CompEffErasure_Imperial.pdf), Imperial College 
 
 * [2024-04-15] [*Differential privacy can also
 enable scientific collaboration*](/assets/pdf/talks/2024-04-15_Sarwate_DL_Privacy_SKKU.pdf), IEEE ITSOC Distinguished Lecture, Sungkyunkwan University
