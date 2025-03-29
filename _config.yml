@@ -268,7 +268,8 @@ scholar:
   last_name: [Sarwate]
   first_name: [Anand, D.]
 
-  style: dependent/ieee-transactions-on-signal-processing # /assets/bilbiography/ieee-custom.csl
+  style: /assets/bilbiography/ieee-custom
+	# dependent/ieee-transactions-on-signal-processing
   locale: en
 
   source: /_bibliography/
