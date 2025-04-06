@@ -27,7 +27,11 @@ Tensor Decompositions*](/assets/pdf/talks/2024-07-18_Sarwate_DL_Tensors_AUB.pdf)
 * [2024-04-15] [*Differential privacy can also
 enable scientific collaboration*](/assets/pdf/talks/2024-04-15_Sarwate_DL_Privacy_SKKU.pdf), IEEE ITSOC Distinguished Lecture, Sungkyunkwan University
 
-### Education (non-teaching)
+### Posters
+
+* [2025-04-08] Y. Tao, A.D. Sarwate, [*Differentially Private Distribution Estimation Using Functional Approximation*](/assets/pdf/posters/ICASSP2025_Poster_YeTao_v3.pdf), IEEE ICASSP 2025, Hyderabad, India
+
+### Other presentation s
 
 * [2024-09-19] [*Getting Into Undergraduate Research in ECE at Rutgers*](/assets/pdf/talks/2024-09-19_Sarwate_URDD), Undergraduate Research Discovery Day, Rutgers University
 
