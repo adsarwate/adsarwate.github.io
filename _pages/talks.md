@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-Below are some slides from a selection of research talks. There may be some small errors/typos in a few of the slides. I've tried to correct some of them but YMMV. If you see something egregious let me know and I'll try to update!
+Below are some slides from a selection of talks (research and other). There may be some small errors/typos in a few of the slides. I've tried to correct some of them but YMMV. If you see something egregious let me know and I'll try to update!
 
 
 <!-- [YYYY-MM-DD] [*Title*](/assets/pdf/talks/), Location -->
