@@ -14,6 +14,8 @@ Below are some slides from a selection of talks (research and other). There may 
 
 ### Research talks
 
+* [talk at IIITH](/assets/pdf/talks/2025-04-07_Sarwate_Tensors_IIIITH.pdf)
+
 * [2025-03-28] [*Flexible Tensor Decompositions for Learning and Optimization*](/assets/pdf/talks/2025-03-28_Sarwate_Tensors_BU.pdf), Center for Information and Systems Engineering, Boston University 
 
 * [2025-01-16] [*Exploring strange neu(ral network) worlds with well-worn tools*](/assets/pdf/talks/2025-01-16_Sarwate_CMI.pdf), BIRS Workshop on 
