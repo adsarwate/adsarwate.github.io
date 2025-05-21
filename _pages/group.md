@@ -13,12 +13,11 @@ My "lab" is a room full of desks. I have thus far resisted giving it a fancy nam
 
 **Graduate Students:**
 
-*   [Sinjini Banerjee](https://www.linkedin.com/in/sinjinibanerjee/) (PhD)
-*   [Daniel Bittner](https://www.linkedin.com/in/daniel-bittner-8776b728/) (PhD) (co-advised with [Rebecca Wright](https://www.cs.columbia.edu/~rwright/))
+*   [Sinjini Banerjee](https://sinjini77.github.io/SinjiniBanerjee/) (PhD)
 *   [Xin Li](https://www.linkedin.com/in/xin-li-28359aa2/) (PhD)
-*   [Nitya Sathyavageeswaran](https://www.linkedin.com/in/nitya-sathyavageeswaran-493179160/?trk=people-guest_people_search-card) (PhD) (co-advised with [Narayan Mandayam](http://www.winlab.rutgers.edu/~narayan/) and [Roy Yates](http://www.winlab.rutgers.edu/~ryates/))
-*   [Ye Tao](https://www.linkedin.com/in/ye-tao-12430a167/) (PhD)
-*   [Yu Wu](https://www.linkedin.com/in/yu-wu-b69283269/) (PhD)
+*   [Nitya Sathyavageeswaran](https://nityas1997.github.io/) (PhD) (co-advised with [Narayan Mandayam](http://www.winlab.rutgers.edu/~narayan/) and [Roy Yates](http://www.winlab.rutgers.edu/~ryates/))
+*   [Ye Tao](https://yetaotjroc93.github.io/) (PhD)
+*   [Yu Wu](https://yuwuofrutgers.github.io/) (PhD)
 
 **Undergraduate Students/WINLAB Interns:**
 
@@ -32,6 +31,9 @@ Here is a list of previous students, postdocs, and visitors who have worked with
 
 **Previous Graduate Students and Postdocs**
 
+* [Daniel Bittner](https://www.linkedin.com/in/daniel-bittner-8776b728/) (PhD 2025) (co-advised with [Rebecca Wright](https://www.cs.columbia.edu/~rwright/)
+    * PhD Thesis: Differentially Private Auditing and Monitoring
+
 *   Jeffrey Isaacs (MS 2022)
     * MS Thesis: [_Global Indoor 2D Localization Using Polygon Edge Visibility Decomposition_](https://rucore.libraries.rutgers.edu/rutgers-lib/69112/)
     * Nokia Bell Labs, New Jersey
@@ -43,7 +45,6 @@ Here is a list of previous students, postdocs, and visitors who have worked with
 *   [Soo Min Kwon](https://soominkwon.github.io/) (MS 2022)
     * MS Thesis: [_Optimization Problems with Low-Dimensional Tensor Structure_](https://rucore.libraries.rutgers.edu/rutgers-lib/67410/)
     * PhD student, University of Michigan
-
 
 *   [Mohsen Rajabpour](https://www.linkedin.com/in/mohsen-rajabpour-b5b897105/) (PhD 2022) (co-advised with [Narayan Mandayam](http://www.winlab.rutgers.edu/~narayan/))
     * PhD Thesis: [_Modeling prosumer behavior in the smart grid and implementing privacy design in IoT_](https://rucore.libraries.rutgers.edu/rutgers-lib/67069/)
