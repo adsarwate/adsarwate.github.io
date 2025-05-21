@@ -14,7 +14,10 @@ Below are some slides from a selection of talks (research and other). There may 
 
 ### Research talks
 
-* [talk at IIITH](/assets/pdf/talks/2025-04-07_Sarwate_Tensors_IIIITH.pdf)
+* [2025-05-20] [*An information theorist visits differential privacy*](/assets/pdf/talks/2025-05-20_Sarwate_ITandDP_Bristol.pdf), INFORMED-AI Seminar, University of Bristol
+
+* [2025-04-07] [*Flexible Tensor Decompositions
+for Learning and Optimization*](/assets/pdf/talks/2025-04-07_Sarwate_Tensors_IIITH.pdf), IIIT-Hyderabad and IIT-Hyderabad
 
 * [2025-03-28] [*Flexible Tensor Decompositions for Learning and Optimization*](/assets/pdf/talks/2025-03-28_Sarwate_Tensors_BU.pdf), Center for Information and Systems Engineering, Boston University 
 
