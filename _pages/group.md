@@ -14,7 +14,7 @@ My "lab" is a room full of desks. I have thus far resisted giving it a fancy nam
 **Graduate Students:**
 
 *   [Sinjini Banerjee](https://sinjini77.github.io/SinjiniBanerjee/) (PhD)
-*   [Xin Li](https://www.linkedin.com/in/xin-li-28359aa2/) (PhD)
+*   [Xin Li](http://helloimlixin.com/) (PhD)
 *   [Nitya Sathyavageeswaran](https://nityas1997.github.io/) (PhD) (co-advised with [Narayan Mandayam](http://www.winlab.rutgers.edu/~narayan/) and [Roy Yates](http://www.winlab.rutgers.edu/~ryates/))
 *   [Ye Tao](https://yetaotjroc93.github.io/) (PhD)
 *   [Yu Wu](https://yuwuofrutgers.github.io/) (PhD)
