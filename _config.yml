@@ -6,11 +6,11 @@ title: Anand D. Sarwate # the website title (if blank, full name will be used in
 first_name: Anand
 middle_name: D.
 last_name: Sarwate
-  The best way to reach me is by <a href="mailto:anand.sarwate@rutgers.edu">email</a>, although I may be slow to respond.
+  The best way to reach me is by email, although I may be slow to respond.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The homepage of Dr. Anand D. Sarwate, currently a faculty member at Rutgers University.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  <br />Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: sarwate, rutgers, information theory, signal processing, differential privacy  # add your own keywords or leave empty
