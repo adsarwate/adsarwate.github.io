@@ -144,7 +144,17 @@
       {% endif %}
     </div>
     <!-- Title -->
-    <div class="title">{{ entry.title }},&nbsp;</div>
+    <div class="title">
+    {% if entry.doi %}
+       {% capture formattedtitle }<a href="https://doi.org/{{ entry.doi }}">{{ entry.title }}</a>,&nbsp;
+    {% else &}
+       {% if entry.url %}
+       <a href="{{ entry.url }}">{{ entry.title }}</a>,&nbsp;
+       {% endif %}
+    {% else %}
+       {{ entry.title }},&nbsp;
+    {% endif %}
+    </div>
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
