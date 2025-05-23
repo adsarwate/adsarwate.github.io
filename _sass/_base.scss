@@ -778,11 +778,11 @@ footer.sticky-bottom {
 
       .title {
           font-weight: bolder;
-	  display:inline-block;
+	  display: inline;
       }
 
       .author {
-	display:inline-block;
+	display: inline;
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -798,7 +798,7 @@ footer.sticky-bottom {
         }
 
         > span.more-authors {
-	  display: inline-block;
+	  display: inline;
           color: var(--global-text-color-light);
           border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;
