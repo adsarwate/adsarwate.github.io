@@ -40,7 +40,7 @@ table.table a {
   color: var(--global-theme-color);
 
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-hover-color);
     text-decoration: underline;
   }
 
@@ -238,7 +238,7 @@ ul.task-list input[type="checkbox"] {
     color: inherit;
 
     &:hover {
-      color: var(--global-theme-color);
+      color: var(--global-hover-color);
       text-decoration: none;
     }
   }
@@ -444,7 +444,7 @@ ul.task-list input[type="checkbox"] {
         text-decoration: none;
 
         i::before {
-          color: var(--global-theme-color);
+          color: var(--global-hover-color);
         }
       }
     }
@@ -501,7 +501,7 @@ footer.fixed-bottom {
     color: var(--global-footer-link-color);
 
     &:hover {
-      color: var(--global-theme-color);
+      color: var(--global-hover-color);
       text-decoration: none;
     }
   }
@@ -626,7 +626,7 @@ footer.sticky-bottom {
       text-decoration: none;
 
       &:hover {
-        color: var(--global-theme-color);
+        color: var(--global-hover-color);
       }
     }
 
@@ -652,7 +652,7 @@ footer.sticky-bottom {
       background-color: var(--global-theme-color);
 
       &:hover {
-        background-color: var(--global-theme-color);
+        background-color: var(--global-hover-color);
       }
     }
   }
@@ -668,7 +668,7 @@ footer.sticky-bottom {
 
 .distill {
   a:hover {
-    border-bottom-color: var(--global-theme-color);
+    border-bottom-color: var(--global-hover-color);
     text-decoration: none;
   }
 }
@@ -681,7 +681,7 @@ footer.sticky-bottom {
 
     &:hover {
       .card-title {
-        color: var(--global-theme-color);
+        color: var(--global-hover-color);
       }
     }
   }
@@ -1194,7 +1194,7 @@ nav[data-toggle="toc"] {
     }
 
     &:hover {
-      color: var(--global-theme-color);
+      color: var(--global-hover-color);
 
       .card-title {
         color: var(--global-theme-color);

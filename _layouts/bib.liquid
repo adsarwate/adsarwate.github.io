@@ -77,7 +77,7 @@
 
         {%- if forloop.length > 1 -%}
           {% if forloop.first == false %},&nbsp;{% endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;,{% endif -%}
+          {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
         {% endif %}
         {%- if author_is_self -%}
           <em>
@@ -95,6 +95,7 @@
             {{ author_last_html -}}
           {% endif %}
         {%- endif -%}
+	{%- if forloop.last and author_array_limit == author_array_size %},&nbsp;{% endif -%}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
