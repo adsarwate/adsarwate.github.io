@@ -777,10 +777,12 @@ footer.sticky-bottom {
       }
 
       .title {
-        font-weight: bolder;
+          font-weight: bolder;
+	  display:inline-block;
       }
 
       .author {
+	display:inline-block;
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
