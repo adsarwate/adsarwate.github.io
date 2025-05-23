@@ -144,7 +144,6 @@
     </div>,
     <!-- Title -->
     <div class="title">{{ entry.title }}, </div>
-
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
@@ -194,6 +193,9 @@
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+      {% endif %}
+      {% if entry.url %}
+        <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">URL</a>
       {% endif %}
       {% if entry.arxiv contains 'arxiv.org' %}
             <a href="{{entry.arxiv}}" class="btn btn-sm z-depth-0" role="button">ArXiV</a>
