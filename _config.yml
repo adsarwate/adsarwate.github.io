@@ -265,7 +265,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Sarwate]
-  first_name: ["Anand", "Anand D.", "Anand Dilip", "Anand D"]
+  first_name: ["Anand", "Anand D.", "Anand Dilip", "Anand D", "A.", "A"]
 
   style: apa
   locale: en
