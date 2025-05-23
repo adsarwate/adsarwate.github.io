@@ -816,8 +816,8 @@ footer.sticky-bottom {
 
       .links {
         a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
+          color: var(--global-theme-color);
+          border: 1px solid var(--global-theme-color);
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
@@ -825,8 +825,9 @@ footer.sticky-bottom {
           margin-left: 0;
 
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+	    color: var(--global-button-hl-fg-color);
+            background-color: var--global-button-hl-bg-color);
+            border-color: var(--global-button-hl-fg-color);
           }
         }
         a.award.btn {
