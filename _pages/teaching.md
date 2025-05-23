@@ -11,8 +11,11 @@ nav_order: 7
 
 300 and 400-level classes are undergraduate, 500-level are graduate.
 
+* **Fall 2025** ECE 345 (Linear Systems and Signals) 
+* **Spring 2025** ECE 531 (High Dimensional Probability and Applications)
+* **Fall 2024** ECE 345 (Linear Systems and Signals) 
 * **Spring 2024** ECE 549 (Statistical Inference and Learning for Engineers) 
-* **Fall 2022** ECE 345 (Linear Systems and Signals) 
+* **Fall 2023** ECE 345 (Linear Systems and Signals) 
 * **Spring 2023** ECE 539 (High Dimensional Probability and Applications)
 * **Fall 2022** ECE 345 (Linear Systems and Signals) 
 * **Spring 2022** ECE 549 (Statistical Inference and Learning for Engineers) 

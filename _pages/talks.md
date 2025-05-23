@@ -36,7 +36,7 @@ enable scientific collaboration*](/assets/pdf/talks/2024-04-15_Sarwate_DL_Privac
 
 * [2025-04-08] Y. Tao, A.D. Sarwate, [*Differentially Private Distribution Estimation Using Functional Approximation*](/assets/pdf/posters/ICASSP2025_Poster_YeTao_v3.pdf), IEEE ICASSP 2025, Hyderabad, India
 
-### Other presentation s
+### Other presentations
 
 * [2024-09-19] [*Getting Into Undergraduate Research in ECE at Rutgers*](/assets/pdf/talks/2024-09-19_Sarwate_URDD), Undergraduate Research Discovery Day, Rutgers University
 
