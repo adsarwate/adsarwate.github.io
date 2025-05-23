@@ -147,7 +147,7 @@
     <div class="title">
     {% if entry.doi %}
        <a href="https://doi.org/{{ entry.doi }}">{{ entry.title }}</a>,&nbsp;
-    {% else &}
+    {% else %}
        {% if entry.url %}
        <a href="{{ entry.url }}">{{ entry.title }}</a>,&nbsp;
        {% endif %}
