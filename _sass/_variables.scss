@@ -31,18 +31,18 @@ $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
 
-$grey-color: #D8D8D8 !default; // original $grey-color: #828282 !default;
-$grey-color-light: #EFEFEF !default; // original $grey-color-light: color.adjust($grey-color, $lightness: 40%);
-$grey-color-dark: #666666; 222222 // original $grey-color-dark: #1c1c1d;
-$grey-900: #222222;
+$grey-color: #d8d8d8 !default; // original $grey-color: #828282 !default;
+$grey-color-light: #efefef !default; // original $grey-color-light: color.adjust($grey-color, $lightness: 40%);
+$grey-color-dark: #666666; !default; // original $grey-color-dark: #1c1c1d;
+$grey-900: #222222; !default;
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
-$code-bg-color-dark: #2c3237 !default;
+$code-bg-color-light: rgba($ru-dark-red-color, 0.05); // $code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-dark: #00626d !default; // $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
 $fa-font-path: "../webfonts";
