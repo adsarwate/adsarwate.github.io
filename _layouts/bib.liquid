@@ -146,7 +146,7 @@
     <!-- Title -->
     <div class="title">
     {% if entry.doi %}
-       {% capture formattedtitle }<a href="https://doi.org/{{ entry.doi }}">{{ entry.title }}</a>,&nbsp;
+       <a href="https://doi.org/{{ entry.doi }}">{{ entry.title }}</a>,&nbsp;
     {% else &}
        {% if entry.url %}
        <a href="{{ entry.url }}">{{ entry.title }}</a>,&nbsp;
