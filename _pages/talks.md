@@ -14,7 +14,9 @@ Below are some slides from a selection of talks (research and other). There may 
 
 ### Selected research talks
 
-* [2025-07-28] [*Are modern ML models like scientific instruments?*](/assets/pdf/talks/2025-07-28_Sarwate_AICIT2025), [AICIT 2025](https://aicit2025.github.io/), Sun Yat-sen University, Guangzhou, China
+* [2025-07-28] [*Are modern ML models like scientific instruments?*](/assets/pdf/talks/2025-07-28_Sarwate_AICIT2025.pdf), [AICIT 2025](https://aicit2025.github.io/), Sun Yat-sen University, Guangzhou, China
+
+* [2024-07-24] [*Communication against restricted adversaries: between Shannon and Hamming*](/assets/pdf/talks/2025-07-24_Sarwate ITSOC_DL_AVCs.pdf), Chinese University of Hong Kong (CUHK), Hong Kong SAR, China
 
 * [2025-05-20] [*An information theorist visits differential privacy*](/assets/pdf/talks/2025-05-20_Sarwate_ITandDP_Bristol.pdf), INFORMED-AI Seminar, University of Bristol, Bristol, UK
 
