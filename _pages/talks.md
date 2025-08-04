@@ -14,8 +14,6 @@ Below are some slides from a selection of talks (research and other). There may 
 
 ### Selected research talks
 
-* [2025-08-05] [*Flexible Tensor Decompositions for Learning and Optimization*](/assets/pdf/talks/2025-07-31_Sarwate_Tensors_UNSW.pdf), University of New South Wales, Sydney, Australia
-
 * [2025-08-04] [*An information theorist's tour of differential privacy*](/assets/pdf/talks/2025-08-04_Sarwate_DP_MacquarieU.pdf), Macquarie University, Sydney, Australia
 
 * [2025-07-31] [*Flexible Tensor Decompositions for Learning and Optimization*](/assets/pdf/talks/2025-07-31_Sarwate ITSOC_DL_SWJiaotongU), Southwest Jiaotong University, Chengdu, China
