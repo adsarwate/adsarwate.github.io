@@ -10,9 +10,15 @@ nav_order: 3
 Below are some slides from a selection of talks (research and other). There may be some small errors/typos in a few of the slides. I've tried to correct some of them but YMMV. If you see something egregious let me know and I'll try to update!
 
 
-<!-- [YYYY-MM-DD] [*Title*](/assets/pdf/talks/), Location -->
+<!-- [YYYY-MM-DD] [*Title*](/assets/pdf/talks/foo.pdf), Location -->
 
 ### Selected research talks
+
+* [2025-08-05] [*Flexible Tensor Decompositions for Learning and Optimization*](/assets/pdf/talks/2025-07-31_Sarwate_Tensors_UNSW.pdf), University of New South Wales, Sydney, Australia
+
+* [2025-08-04] [*An information theorist's tour of differential privacy*](/assets/pdf/talks/2025-08-04_Sarwate_DP_MacquarieU.pdf), Macquarie University, Sydney, Australia
+
+* [2025-07-31] [*Flexible Tensor Decompositions for Learning and Optimization*](/assets/pdf/talks/2025-07-31_Sarwate ITSOC_DL_SWJiaotongU), Southwest Jiaotong University, Chengdu, China
 
 * [2025-07-28] [*Are modern ML models like scientific instruments?*](/assets/pdf/talks/2025-07-28_Sarwate_AICIT2025.pdf), [AICIT 2025](https://aicit2025.github.io/), Sun Yat-sen University, Guangzhou, China
 
