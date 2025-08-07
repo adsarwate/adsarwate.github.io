@@ -14,9 +14,11 @@ Below are some slides from a selection of talks (research and other). There may 
 
 ### Selected research talks
 
+* [2025-08-07] [*Communication against restricted adversaries: between Shannon and Hamming*](/assets/pdf/talks/2025-08-07_USyd_DL_Sarwate_AVCs.pdf), University of Sydney, Sydney, Australia
+
 * [2025-08-04] [*An information theorist's tour of differential privacy*](/assets/pdf/talks/2025-08-04_Sarwate_DP_MacquarieU.pdf), Macquarie University, Sydney, Australia
 
-* [2025-07-31] [*Flexible Tensor Decompositions for Learning and Optimization*](/assets/pdf/talks/2025-07-31_Sarwate ITSOC_DL_SWJiaotongU), Southwest Jiaotong University, Chengdu, China
+* [2025-07-31] [*Flexible Tensor Decompositions for Learning and Optimization*](/assets/pdf/talks/2025-07-31_Sarwate ITSOC_DL_SWJiaotongU.pdf), Southwest Jiaotong University, Chengdu, China
 
 * [2025-07-28] [*Are modern ML models like scientific instruments?*](/assets/pdf/talks/2025-07-28_Sarwate_AICIT2025.pdf), [AICIT 2025](https://aicit2025.github.io/), Sun Yat-sen University, Guangzhou, China
 
