@@ -45,7 +45,19 @@
   {% endif %}
 
   <!-- Entry bib key -->
+   {% assign proceedings = 'inproceedings,incollection,inbook' | split: ',' %}
+   {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-md-auto{% endif %}">
+    <!-- Type -->
+    {% if entry.type == 'article' %}
+       <b>[Journal]&nbsp;</b>
+    {% endif %}
+    {% if entry.type == 'proceedings' %}
+       <b>[Conference]&nbsp;</b>
+    {% endif %}
+    {% if entry.type == 'theis' %}
+       <b>[Thesis]&nbsp;</b>
+    {% endif %}
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -156,8 +168,6 @@
       {% endif %}
     </div>
     <!-- Journal/Book title and date -->
-    {% assign proceedings = 'inproceedings,incollection,inbook' | split: ',' %}
-    {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
