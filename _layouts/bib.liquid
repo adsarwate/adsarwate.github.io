@@ -52,10 +52,9 @@
     {% if entry.type == 'article' %}
        <b>[Journal]&nbsp;</b>
     {% endif %}
-    {% if entry.type == 'proceedings' %}
+    {% elsif proceedings contains entry.type %}
        <b>[Conference]&nbsp;</b>
-    {% endif %}
-    {% if entry.type == 'thesis' %}
+     {% elsif thesis contains entry.type %}
        <b>[Thesis]&nbsp;</b>
     {% endif %}
     <!-- Author -->
