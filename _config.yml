@@ -268,7 +268,7 @@ scholar:
   first_name: ["Anand", "Anand D.", "Anand Dilip", "Anand D", "A.", "A"]
 
   
-  style: ieee-with-url
+  style: apa
   locale: en
 
   source: ./_bibliography/
