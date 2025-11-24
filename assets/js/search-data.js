@@ -14,7 +14,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "https://ergodicity.net/index.html";
+            window.location.href = "/https:/ergodicity.net/";
           },
         },{id: "nav-pubs",
           title: "pubs",
