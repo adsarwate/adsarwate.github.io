@@ -55,7 +55,7 @@
     {% if entry.type == 'proceedings' %}
        <b>[Conference]&nbsp;</b>
     {% endif %}
-    {% if entry.type == 'theis' %}
+    {% if entry.type == 'thesis' %}
        <b>[Thesis]&nbsp;</b>
     {% endif %}
     <!-- Author -->
@@ -170,6 +170,8 @@
     <!-- Journal/Book title and date -->
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
+      {% capture entrytype %}({{ entry.volume }}){% endcapture %}
+      {% capture entrytype %}({{ entry.numbere }}){% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
