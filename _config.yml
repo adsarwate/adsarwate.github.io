@@ -293,7 +293,6 @@ scholar:
   # query: "@techreport, @inbook, @article, @incollection, @inproceedings, @phdthesis, @mastersthesis"
   # sort_by: year,month
   # order: descending,descending
-
   # group_by: type
   # group_order: ascending,descending
 

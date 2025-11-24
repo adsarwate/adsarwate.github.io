@@ -170,8 +170,8 @@
     <!-- Journal/Book title and date -->
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
-      {% capture entrytype %}({{ entry.volume }}){% endcapture %}
-      {% capture entrytype %}({{ entry.numbere }}){% endcapture %}
+      {% capture entrytype %}{{ entry.volume }}{% endcapture %}
+      {% capture entrytype %}({{ entry.number }}){% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
