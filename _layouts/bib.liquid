@@ -180,7 +180,7 @@
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
     {% elsif entry.arxiv %}
-      {% capture entrytype %}ArXiV preprint <em>{{ entry.number }}</em>{% endcapture %}
+      {% capture entrytype %}ArXiV preprint {{ entry.number }}{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
