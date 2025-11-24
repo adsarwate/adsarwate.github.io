@@ -57,6 +57,9 @@
      {% endif %}
      {% if thesis contains entry.type %}
        <b>[Thesis]&nbsp;</b>
+    {% endif %
+    {% if entry.type == 'techreport' %}
+       <b>[Preprint]&nbsp;</b>
     {% endif %}
     <!-- Author -->
     <div class="author">
