@@ -95,7 +95,7 @@
             {{ author_last_html -}}
           {% endif %}
         {%- endif -%}
-	{%- if forloop.last and author_array_limit == author_array_size %},&nbsp;{% endif -%}
+        {%- if forloop.last and author_array_limit == author_array_size %},&nbsp;{% endif -%}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
@@ -145,15 +145,15 @@
     </div>
     <!-- Title -->
     <div class="title">
-    {% if entry.doi %}
-       <a href="https://doi.org/{{ entry.doi }}">{{ entry.title }}</a>,&nbsp;
-    {% else %}
-       {% if entry.url %}
-       <a href="{{ entry.url }}">{{ entry.title }}</a>,&nbsp;
-       {% endif %}
-    {% else %}
-       {{ entry.title }},&nbsp;
-    {% endif %}
+      {% if entry.doi %}
+        <a href="https://doi.org/{{ entry.doi }}">{{ entry.title }}</a>,&nbsp;
+      {% else %}
+        {% if entry.url %}
+          <a href="{{ entry.url }}">{{ entry.title }}</a>,&nbsp;
+        {% endif %}
+      {% else %}
+        {{ entry.title }},&nbsp;
+      {% endif %}
     </div>
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection,inbook' | split: ',' %}
@@ -200,7 +200,7 @@
         </a>
       {% endif %}
       {% if entry.abstract %}
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
@@ -209,7 +209,7 @@
         <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">URL</a>
       {% endif %}
       {% if entry.arxiv contains 'arxiv.org' %}
-            <a href="{{entry.arxiv}}" class="btn btn-sm z-depth-0" role="button">ArXiV</a>
+        <a href="{{entry.arxiv}}" class="btn btn-sm z-depth-0" role="button">ArXiV</a>
       {% endif %}
       {% if entry.title %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
@@ -221,8 +221,8 @@
           <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
         {% endif %}
       {% endif %}
-      {% if entry.local-url contains '.pdf' -%}
-            <a href="{{ entry.local-url | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Local</a>
+      {% if entry['local-url'] contains '.pdf' -%}
+        <a href="{{ entry.local-url | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Local</a>
       {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}
