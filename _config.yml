@@ -13,13 +13,13 @@ footer_text: >
   <br />Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: sarwate, rutgers, information theory, signal processing, differential privacy  # add your own keywords or leave empty
+keywords: sarwate, rutgers, information theory, signal processing, differential privacy # add your own keywords or leave empty
 
-lang: en   # the language of your site (for example: en, fr, cn, ru, etc.)
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🌎️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://adsarwate.github.io # the base hostname & protocol for your site
-baseurl:                         # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -284,21 +284,21 @@ scholar:
   details_dir: bibliography
   details_link: Details
 
-#  query: "@*"
-#  group_by: year
-#  group_order: descending
+  #  query: "@*"
+  #  group_by: year
+  #  group_order: descending
 
   query: "@techreport, @inbook, @article, @incollection, @inproceedings, @phdthesis, @mastersthesis"
   sort_by: year,month
   order: descending,descending
 
   group_by: type
-#  group_order: ascending,descending
+  #  group_order: ascending,descending
 
   type_order: [techreport, inbook, book, article, incollection, inproceedings, phdthesis, mastersthesis]
-  type_aliases: {incollection: inproceedings, phdthesis: thesis, mastersthesis: thesis, book: inbook}
-  type_names: {techreport: Preprints, inbook: Monographs and Book Chapters, article: Journal Papers, inproceedings: Conference Papers, thesis: Theses}
-
+  type_aliases: { incollection: inproceedings, phdthesis: thesis, mastersthesis: thesis, book: inbook }
+  type_names:
+    { techreport: Preprints, inbook: Monographs and Book Chapters, article: Journal Papers, inproceedings: Conference Papers, thesis: Theses }
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
@@ -336,7 +336,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 8              # leave blank to always show all authors
+max_author_limit: 8 # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
