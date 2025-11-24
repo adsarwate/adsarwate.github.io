@@ -14,6 +14,18 @@ Below are some slides from a selection of talks (research and other). There may 
 
 ### Selected research talks
 
+* [2025-11-22] [*Understanding and using
+the embedding spaces of
+large generative models*](/assets/pdf/talks/2025-11-21_Sarwate_UIC.pdf), University of Illinois Chicago (Chicago, IL, USA)
+
+* [2025-10-24] [*An information
+theorist's tour of
+differential privacy*](/assets/pdf/talks/2025-10-24_Sarwate_CIMAT.pdf), Centro de Investigación en Matemáticas (Guanajuato, Guanajuato, Mexico)
+
+* [2025-10-23] [*Are modern ML models like scientific instruments?*](/assets/pdf/talks/2025-08-15_Sarwate_Monash.pdf), Tecnológico de Monterrey, Campus León (León, Guanajuato, Mexico)
+
+* [2025-10-22] [*Are modern ML models like scientific instruments?*](/assets/pdf/talks/2025-10-22_Sarwate_UMichoacana.pdf), Universidad Michoacana de San Nicolás de Hidalgo (Morelia, Michoacán, Mexico)
+
 * [2025-08-15] [*Are modern ML models like scientific instruments?*](/assets/pdf/talks/2025-08-15_Sarwate_Monash.pdf), Monash University (Melbourne, Australia)
 
 * [2025-08-13] [*Communication against restricted adversaries: between Shannon and Hamming*](/assets/pdf/talks/2025-08-13_UniMelb_DL_Sarwate_AVCs), University of Melbourne (Melbourne, Austalia)
@@ -31,7 +43,10 @@ Below are some slides from a selection of talks (research and other). There may 
 * [2025-05-20] [*An information theorist visits differential privacy*](/assets/pdf/talks/2025-05-20_Sarwate_ITandDP_Bristol.pdf), INFORMED-AI Seminar, University of Bristol (Bristol, UK)
 
 * [2025-04-07] [*Flexible Tensor Decompositions
-for Learning and Optimization*](/assets/pdf/talks/2025-04-07_Sarwate_Tensors_IIITH.pdf), IIIT-Hyderabad and IIT-Hyderabad (Hyderabad, India)
+for Learning and Optimization*](/assets/pdf/talks/2025-04-10_Sarwate_Tensors_IITH.pdf), IIT-Hyderabad (Hyderabad, Telangana, India)
+
+* [2025-04-07] [*Flexible Tensor Decompositions
+for Learning and Optimization*](/assets/pdf/talks/2025-04-07_Sarwate_Tensors_IIITH.pdf), IIIT-Hyderabad (Hyderabad, Telangana, India)
 
 * [2025-03-28] [*Flexible Tensor Decompositions for Learning and Optimization*](/assets/pdf/talks/2025-03-28_Sarwate_Tensors_BU.pdf), Center for Information and Systems Engineering, Boston University, (Boston, USA)
 

@@ -13,6 +13,7 @@ My "lab" is a room full of desks. I have thus far resisted giving it a fancy nam
 
 **Graduate Students:**
 
+*   [Srinigha Anbu](https://www.linkedin.com/in/srinigha-anbu/) (MS)
 *   [Sinjini Banerjee](https://sinjini77.github.io/SinjiniBanerjee/) (PhD)
 *   [Xin Li](https://www.linkedin.com/in/xin-li-28359aa2/) (PhD)
 *   [Nitya Sathyavageeswaran](https://nityas1997.github.io/) (PhD) (co-advised with [Narayan Mandayam](http://www.winlab.rutgers.edu/~narayan/) and [Roy Yates](http://www.winlab.rutgers.edu/~ryates/))
@@ -21,7 +22,9 @@ My "lab" is a room full of desks. I have thus far resisted giving it a fancy nam
 
 **Undergraduate Students/WINLAB Interns:**
 
-**For prospective graduate students:** Rutgers is an exciting place to learn and grow as an engineer. If you are specifically interested in my research, please look at my publications and projects. If you are applying to the department and want to pursue a Ph.D., apply to the Ph.D. program and mention your research interests in your statement. If you have _specific questions about my research_, feel free to contact me and mention that you have read this particular webpage. Unfortunately, I generally do not have the time to respond to general inquiries from potential students. I will not respond to emails that only contain a CV and a request for admission to my research group. 
+**For prospective graduate students:** Rutgers is an exciting place to learn and grow as an engineer. If you are specifically interested in my research, please look at my publications and projects. If you are applying to the department and want to pursue a Ph.D., apply to the Ph.D. program and mention your research interests in your statement. If you have _specific questions about my research_, feel free to contact me and mention that you have read this particular webpage. Unfortunately, I generally do not have the time to respond to general inquiries from potential students. I will not respond to emails that only contain a CV and a request for admission to my research group.
+
+I will be on leave for the academic year 2026-2027 and will not be taking on new students.
 
 **For undergraduate students:** Doing an independent research study is a great way to learn about research and expand your horizons beyond the classroom. If you're interested in an undergraduate research opportunity, please [look at the slides](/assets/pdf/talks/URDD_Slides_2023.pdf) from a presentation I gave about how to get involved with undergraduate research. If you're still interested in a project with me, feel free to email me (but follow the advice in the slides).
 
