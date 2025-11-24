@@ -7,4 +7,4 @@ inline: true
 Two new papers accepted:
 
 - Max Vargas, Reilly Cannon, Andrew Engel, Anand D. Sarwate, Tony Chiang, **Understanding generative AI output with embedding models**, _Science Advances_, in press.
-- Anand D. Sarwate, Flavio Calmon, Oliver Kosut, Lalitha Sankar, [**An information theorist’s tour of differential privacy**](10.1109/MBITS.2025.3625155), _BITS The Information Theory Magazine_, in press.
+- Anand D. Sarwate, Flavio Calmon, Oliver Kosut, Lalitha Sankar, [**An information theorist’s tour of differential privacy**](https://doi.org/10.1109/MBITS.2025.3625155), _BITS The Information Theory Magazine_, in press.
