@@ -14,7 +14,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/https:/ergodicity.net/";
+            window.location.href = "/blog/";
           },
         },{id: "nav-pubs",
           title: "pubs",
@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-a-post-with-image-galleries",
+        },{id: "post-a-post-with-plotly-js",
+      
+        title: "a post with plotly.js",
+      
+      description: "this is what included plotly.js code could look like",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/plotly/";
+        
+      },
+    },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
@@ -300,17 +311,6 @@ ninja.data = [{
           window.location.href = "/blog/2022/giscus-comments/";
         
       },
-    },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-      
-        title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-        
-      },
     },{id: "post-a-post-with-redirect",
       
         title: "a post with redirect",
@@ -410,7 +410,12 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-new-grant-rings-realtime-resilient-edge-cloud-autonomous-learning-with-timely-inferences-co-pis-roy-d-yates-waheed-u-bajwa-and-dipankar-raychaudhuri-we-will-be-looking-at-issues-in-adaptive-edge-cloud-assisted-ml-based-services-from-the-ground-up",
+    },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{id: "news-new-grant-rings-realtime-resilient-edge-cloud-autonomous-learning-with-timely-inferences-co-pis-roy-d-yates-waheed-u-bajwa-and-dipankar-raychaudhuri-we-will-be-looking-at-issues-in-adaptive-edge-cloud-assisted-ml-based-services-from-the-ground-up",
           title: 'New grant! RINGS: REALTIME: Resilient Edge-cloud Autonomous Learning with Timely Inferences, co-PIs Roy...',
           description: "",
           section: "News",},{id: "news-some-new-work-taki-sarwate-bajwa-structured-low-rank-tensors-for-generalized-linear-models-accepted-to-transactions-on-machine-learning-research-tmlr-silk-chakraborty-dasgupta-sarwate-lumsdaine-chang-minibatching-offers-improved-generalization-performance-for-second-order-optimizers-arxiv",
