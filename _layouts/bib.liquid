@@ -1,6 +1,5 @@
 ---
 ---
-{% if entry.type != 'unpublished' %}
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
@@ -44,7 +43,7 @@
       {% endif %}
     </div>
   {% endif %}
-
+  {% if entry.type != 'unpublished' %}
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-md-auto{% endif %}">
     <!-- Type -->
