@@ -57,12 +57,14 @@
        <b>[Conference]</b>
     {% elsif theses contains entry.type %}
        <b>[Thesis]</b>
+    {% elsif entry.arxiv == 'inbook' %}
+       <b>[Book Chapter]</b>
     {% elsif entry.arxiv == 'true' %}
        <b>[ArXiV]</b>
     {% elsif entry.type == 'techreport' %}
        <b>[Preprint]</b>
     {% else %}
-       <b>[Other]&nbsp;</b>
+       <b>[Other]</b>
     {% endif %}
     <!-- Author -->
     <div class="author">
@@ -173,7 +175,13 @@
     </div>
     <!-- Journal/Book title and date -->
     {% if entry.type == 'article' %}
-      {% capture entrytype %}<em>{{ entry.journal }}</em> {{ entry.volume }}:{{ entry.number }}{% endcapture %}
+      {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
+      {% if entry.volume %}
+      	 {% capture entrytype %}{{ entry.volume }}{% endcapture %}
+      {% endif %}
+      {% if entry.number %}
+	 {% capture entrytype %}({{ entry.number }}){% endcapture %}
+      {% endif %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
@@ -390,7 +398,6 @@
         <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
     {% endif %}
-
- {% endif %}
   </div>
+ {% endif %}
 </div>
