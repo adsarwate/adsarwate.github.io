@@ -1,5 +1,6 @@
 ---
 ---
+{% if entry.type != 'unpublished' %}
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
@@ -44,7 +45,6 @@
     </div>
   {% endif %}
 
-  {% if entry.type != 'unpublished' %}
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-md-auto{% endif %}">
     <!-- Type -->
@@ -397,7 +397,7 @@
       <div class="abstract hidden">
         <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
-    {% endif %}
   </div>
  {% endif %}
 </div>
+{% endif %}
