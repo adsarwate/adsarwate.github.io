@@ -178,6 +178,8 @@
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
+    {% elsif entry.arxiv = 'true' %}
+      {% capture entrytype %}<em>ArXiv preprint {{ entry.number }}</em>{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
