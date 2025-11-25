@@ -44,6 +44,7 @@
     </div>
   {% endif %}
 
+  {% if entry.type != 'unpublished' %}
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-md-auto{% endif %}">
     <!-- Type -->
@@ -53,7 +54,7 @@
     {% if entry.type == 'article' %}
        <b>[Journal]</b>
     {% elsif conf contains entry.type %}
-       <b>[Conference];</b>
+       <b>[Conference]</b>
     {% elsif theses contains entry.type %}
        <b>[Thesis]</b>
     {% elsif entry.arxiv == 'true' %}
@@ -389,5 +390,7 @@
         <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
     {% endif %}
+
+ {% endif %}
   </div>
 </div>
