@@ -51,15 +51,15 @@
     {% assign proceedings = 'inproceedings,incollection,inbook' | split: ',' %}
     {% assign theses = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
-       <b>[Journal]&nbsp;</b>
+       <b>[Journal]</b>
     {% elsif conf contains entry.type %}
-       <b>[Conference]&nbsp;</b>
+       <b>[Conference];</b>
     {% elsif theses contains entry.type %}
-       <b>[Thesis]&nbsp;</b>
+       <b>[Thesis]</b>
     {% elsif entry.arxiv == 'true' %}
-       <b>[ArXiV]&nbsp;</b>
-    {% if entry.type == 'techreport' %}
-       <b>[Preprint]&nbsp;</b>
+       <b>[ArXiV]</b>
+    {% elsif entry.type == 'techreport' %}
+       <b>[Preprint]</b>
     {% endif %}
     {% else %}
        <b>[Other]&nbsp;</b>
