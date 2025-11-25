@@ -175,7 +175,7 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
       {% if entry.volume %}
-      	 {% capture entrytype %}{{ " " }}{ entry.volume }}{% endcapture %}
+      	 {% capture entrytype %}{{ " " }}{{ entry.volume }}{% endcapture %}
       {% endif %}
       {% if entry.number %}
       	 {% capture entrytype %}{{ ": (" }}{{ entry.number }}{{ "), "}}{% endcapture %}
