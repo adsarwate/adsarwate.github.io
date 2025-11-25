@@ -178,7 +178,7 @@
       	 {% capture entrytype %}&nbsp;{{ entry.volume }}{% endcapture %}
       {% endif %}
       {% if entry.number %}
-	 {% capture entrytype %}({{ entry.number }}){% endcapture %}
+	 {% capture entrytype %}({{ entry.number }}),&nbsp;{% endcapture %}
       {% endif %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
