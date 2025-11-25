@@ -287,8 +287,9 @@ scholar:
 
   query: "@*"
   group_by: year
-  sort_by: month
   group_order: descending
+  sort_by: year, month
+  order: descending,descending
 
   # query: "@techreport, @inbook, @article, @incollection, @inproceedings, @phdthesis, @mastersthesis"
   # sort_by: year,month
