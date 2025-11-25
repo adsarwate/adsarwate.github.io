@@ -57,7 +57,7 @@
        <b>[Conference]</b>
     {% elsif theses contains entry.type %}
        <b>[Thesis]</b>
-    {% elsif entry.arxiv == 'inbook' %}
+    {% elsif entry.type == 'inbook' %}
        <b>[Book Chapter]</b>
     {% elsif entry.arxiv == 'true' %}
        <b>[ArXiV]</b>
@@ -177,7 +177,7 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
       {% if entry.volume %}
-      	 {% capture entrytype %}{{ entry.volume }}{% endcapture %}
+      	 {% capture entrytype %}&nbsp{{ entry.volume }}{% endcapture %}
       {% endif %}
       {% if entry.number %}
 	 {% capture entrytype %}({{ entry.number }}){% endcapture %}
