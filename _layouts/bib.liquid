@@ -173,12 +173,12 @@
     </div>
     <!-- Journal/Book title and date -->
     {% if entry.type == 'article' %}
-      {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
+      {% capture entrytype %}<em>{{ entry.journal }}</em> {{ entry.volume }}:{{ entry.number }}{% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
-    {% elsif entry.arxiv = 'true' %}
+    {% elsif entry.arxiv == 'true' %}
       {% capture entrytype %}<em>ArXiv preprint {{ entry.number }}</em>{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
