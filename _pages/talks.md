@@ -66,4 +66,4 @@ Below are some slides from a selection of talks (research and other). There may 
 
 ### Other presentations
 
-- [2024-09-19] [_Getting Into Undergraduate Research in ECE at Rutgers_](/assets/pdf/talks/2024-09-19_Sarwate_URDD), Undergraduate Research Discovery Day, Rutgers University
+- [2024-09-19] [_Getting Into Undergraduate Research in ECE at Rutgers_](/assets/pdf/talks/2024-09-19_Sarwate_URDD.pdf), Undergraduate Research Discovery Day, Rutgers University
