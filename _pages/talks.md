@@ -12,6 +12,8 @@ Below are some slides from a selection of talks (research and other). There may 
 <!-- [YYYY-MM-DD] [*Title*](/assets/pdf/talks/foo.pdf), Location -->
 
 ### Selected research talks
+- [2025-12-06] [_Building a STAIRWAI to COSMOS
+An AI-enabled testbed for Wireless+AI_](/assets/pdf/talks/2025-12-06-AI4NextG-Sarwate.pdf), [AI4NextG Workshop](https://ai4nextg.github.io/) at NeurIPS 2025.
 
 - [2025-11-22] [_Understanding and using
   the embedding spaces of
