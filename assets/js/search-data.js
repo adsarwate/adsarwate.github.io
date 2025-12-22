@@ -465,9 +465,9 @@ ninja.data = [{
           section: "News",},{id: "news-two-new-papers-accepted-max-vargas-reilly-cannon-andrew-engel-anand-d-sarwate-tony-chiang-understanding-generative-ai-output-with-embedding-models-science-advances-in-press-anand-d-sarwate-flavio-calmon-oliver-kosut-lalitha-sankar-an-information-theorist-s-tour-of-differential-privacy-bits-the-information-theory-magazine-in-press",
           title: 'Two new papers accepted: Max Vargas, Reilly Cannon, Andrew Engel, Anand D. Sarwate,...',
           description: "",
-          section: "News",},{id: "projects-adversarial-communication-models",
-          title: 'adversarial communication models',
-          description: "between worst and average case communication",
+          section: "News",},{id: "projects-adversarial-models-for-communicatio",
+          title: 'Adversarial Models for Communicatio',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/AVCs/";
             },},{id: "projects-federated-learning-for-neuroimaging",
