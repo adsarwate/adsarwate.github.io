@@ -51,6 +51,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Projects page under revision",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-teaching",
           title: "teaching",
           description: "Courses I have taught",
@@ -490,11 +497,6 @@ ninja.data = [{
           description: "How should we compare models?",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SIGNAL/";
-            },},{id: "projects-grants-and-financial-support",
-          title: 'grants and financial support',
-          description: "some of my research has been supported by various grants",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/funding/";
             },},{id: "projects-music",
           title: 'music',
           description: "singing",
