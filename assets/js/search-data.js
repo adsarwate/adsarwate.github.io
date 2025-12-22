@@ -46,7 +46,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Current and past research projects",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -480,14 +480,14 @@ ninja.data = [{
           description: "tensor-structured statistical models",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ESTRELLA/";
-            },},{id: "projects-latency-in-mobile-edge-cloud-systems",
-          title: 'latency in mobile edge cloud systems',
-          description: "latency-sensitive ML at the edge",
+            },},{id: "projects-inference-and-latency-in-mobile-edge-systems",
+          title: 'Inference and Latency in Mobile Edge Systems',
+          description: "How should we manage on-device ML/AI with edge assitance?",
           section: "Projects",handler: () => {
               window.location.href = "/projects/REALTIME/";
-            },},{id: "projects-measuring-variability-of-ml-training",
-          title: 'measuring variability of ML training',
-          description: "understanding the reliability of ML training",
+            },},{id: "projects-comparing-ml-ai-models",
+          title: 'Comparing ML/AI models',
+          description: "How should we compare models?",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SIGNAL/";
             },},{id: "projects-grants-and-financial-support",
