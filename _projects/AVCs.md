@@ -2,7 +2,7 @@
 layout: page
 title: Adversarial Models for Communicatio 
 description: 
-img: assets/img/gen_plotkin_geom_cone.png
+img: assets/img/projects/gen_plotkin_geom_cone.png
 importance: 5
 category: work
 ---

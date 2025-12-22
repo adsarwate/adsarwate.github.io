@@ -2,7 +2,7 @@
 layout: page
 title: federated learning for neuroimaging
 description: collaborative science with privacy
-img: assets/img/djica_fig.png
+img: assets/img/projects/djica_fig.png
 importance: 2
 category: work
 ---

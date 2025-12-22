@@ -1,12 +1,22 @@
 ---
 layout: page
-title: latency in mobile edge cloud systems
-description: latency-sensitive ML at the edge
-img: assets/img/realtime.png
+title: Inference and Latency in Mobile Edge Systems
+description: How should we manage on-device ML/AI with edge assitance?
+img: assets/img/projects/realtime.png
 importance: 4
 category: work
 ---
 
-This project is [funded by the NSF](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2148104&HistoricalAwards=false) and is about resilience in moble edge cloud (MEC) systems. The idea is that mobile devices can do some machine learning infernes locally but occasionally may need to us a physically close compute center (the MEC) to offload some computation. The work my group is doing is on understanding "when to ask for help" in these systems, using tools from learning theory, information theory, networking, and privacy.
+Deploying complex machine learning models on resource-constrained devices is
+challenging due to limited computational power, memory, and model retrainabil-
+ity. One proposal is to have mobile devices offload computation to processing centers which are physically closer than the abstract "cloud." These *mobile edge cloud (MEC)* systems raise a number of interesting challenges in terms of latency, accuracy, energy efficiency, and privacy (among others).
 
-lease see [our project page](https://realtime-rutgers.github.io/) for more details!
+#### Representative publications
+
+*  Yu Wu, Yansong Li, Zeyu Dong, Nitya Sathyavageeswaran, and Anand D. Sarwate, 
+Learning to Help in Multi-Class Settings, 
+In The Thirteenth International Conference on Learning Representations (ICLR 2025), Apr 2025. 
+
+#### Support
+
+This project is [funded by the NSF](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2148104&HistoricalAwards=false). We also have a [project page](https://realtime-rutgers.github.io/).
