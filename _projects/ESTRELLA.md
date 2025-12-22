@@ -2,7 +2,7 @@
 layout: page
 title: structured tensors in stat/ml
 description: tensor-structured statistical models
-img: assets/img/projects/lsr_decomp.png
+img: assets/img/lsr_decomp.png
 importance: 3
 category: work
 ---

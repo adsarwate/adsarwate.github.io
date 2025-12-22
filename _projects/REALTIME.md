@@ -3,7 +3,7 @@ layout: page
 title: Inference and Latency in Mobile Edge Systems
 description: How should we manage on-device ML/AI with edge assitance?
 img: assets/img/projects/realtime.png
-importance: 4
+importance: 2
 category: work
 ---
 
@@ -13,10 +13,13 @@ ity. One proposal is to have mobile devices offload computation to processing ce
 
 #### Representative publications
 
+* 
 *  Yu Wu, Yansong Li, Zeyu Dong, Nitya Sathyavageeswaran, and Anand D. Sarwate, 
 Learning to Help in Multi-Class Settings, 
 In The Thirteenth International Conference on Learning Representations (ICLR 2025), Apr 2025. 
 
 #### Support
 
-This project is [funded by the NSF](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2148104&HistoricalAwards=false). We also have a [project page](https://realtime-rutgers.github.io/).
+* [NSF CNS-2148104](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2148104&HistoricalAwards=false)
+  RINGS: REALTIME: Resilient Edge-cloud Autonomous Learning with Timely Inferences
+  (PI: Anand D. Sarwate, Co-PIs: Waheed U. Bajwa, Dipankar Raychaudhuri, Roy D. Yates)

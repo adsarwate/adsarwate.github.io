@@ -3,7 +3,7 @@ layout: page
 title: Adversarial Models for Communicatio 
 description: 
 img: assets/img/projects/gen_plotkin_geom_cone.png
-importance: 5
+importance: 4
 category: work
 ---
 
@@ -16,3 +16,6 @@ Understanding both coding schemes and optimal attack strategies shows the import
 We published a monograph on this recently!
 
 * Bikash Kumar Dey, Sidharth Jaggi, Michael Langberg, Anand D. Sarwate, and Yihan Zhang, [Codes for Adversaries: Between Worst-Case and Average-Case Jamming](https://doi.org/10.1561/0100000112), : (3-4), , Dec 2024.
+
+#### Support
+

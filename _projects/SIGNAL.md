@@ -3,7 +3,7 @@ layout: page
 title: Comparing ML/AI models
 description: How should we compare models?
 img: assets/img/projects/signal_ensemblefig.png
-importance: 6
+importance: 1
 category: work
 ---
 
