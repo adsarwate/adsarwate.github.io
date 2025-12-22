@@ -327,6 +327,7 @@ filtered_bibtex_keywords:
     google_scholar_id,
     html,
     inspirehep_id,
+    joournal,
     number,
     pdf,
     poster,
