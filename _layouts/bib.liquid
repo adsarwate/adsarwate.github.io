@@ -180,11 +180,11 @@
       {% endif %}
     {% endif %}
     {% if proceedings contains entry.type %}
-      <em>In {{ entry.booktitle }}</em>
+      <em>In {{ entry.booktitle }}</em>{{ "),"}}&nbsp;
     {% elsif thesis contains entry.type %}
-      <em>{{ entry.school }}</em>
+      <em>{{ entry.school }}</em>{{ "),"}}&nbsp;
     {% elsif entry.arxiv == 'true' %}
-      <em>ArXiv preprint {{ entry.number }}</em>
+      <em>ArXiv preprint {{ entry.number }}</em>{{ "),"}}&nbsp;
     {% else %}
       {{","}}&nbsp;
     {% endif %}
