@@ -67,12 +67,10 @@
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
-
       {% assign author_array_limit = author_array_size %}
       {% if site.max_author_limit and author_array_size > site.max_author_limit %}
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
-
       {%- for author in entry.author_array limit: author_array_limit -%}
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
@@ -173,20 +171,20 @@
     </div>
     <!-- Journal/Book title and date -->
     {% if entry.type == 'article' %}
-      {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
+      <em>{{ entry.journal }}</em>
       {% if entry.volume %}
-      	 {% capture entrytype %}{{ " " }}{{ entry.volume }}{% endcapture %}
+      	 &nbsp;{{ entry.volume }}
       {% endif %}
       {% if entry.number %}
-      	 {% capture entrytype %}{{ ": (" }}{{ entry.number }}{{ "), "}}{% endcapture %}
+      	 {{ ": (" }}{{ entry.number }}{{ "),"}}&nbsp;
       {% endif %}
     {% endif %}
     {% if proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
+      }<em>In {{ entry.booktitle }}</em>
     {% elsif thesis contains entry.type %}
-      {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
+      <em>{{ entry.school }}</em>
     {% elsif entry.arxiv == 'true' %}
-      {% capture entrytype %}<em>ArXiv preprint {{ entry.number }}</em>{% endcapture %}
+      <em>ArXiv preprint {{ entry.number }}</em>
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
