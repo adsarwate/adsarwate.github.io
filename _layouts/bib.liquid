@@ -186,7 +186,7 @@
     {% elsif entry.arxiv == 'true' %}
       <em>ArXiv preprint {{ entry.number }}</em>
     {% else %}
-      {% capture entrytype %}{% endcapture %}
+      {{","}}&nbsp;
     {% endif %}
     {% if entry.location %}
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
