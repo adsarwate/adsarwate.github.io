@@ -178,24 +178,23 @@
       {% if entry.number %}
       	 {{ ": (" }}{{ entry.number }}{{ "),"}}&nbsp;
       {% endif %}
-    {% endif %}
-    {% if proceedings contains entry.type %}
+    {% elsif proceedings contains entry.type %}
       <em>In {{ entry.booktitle }}</em>{{ "),"}}&nbsp;
     {% elsif thesis contains entry.type %}
       <em>{{ entry.school }}</em>{{ "),"}}&nbsp;
     {% elsif entry.arxiv == 'true' %}
       <em>ArXiv preprint {{ entry.number }}</em>{{ "),"}}&nbsp;
     {% else %}
-      {{","}}&nbsp;
+      <em>[Other type of publication]</em>,&nbsp;
     {% endif %}
     {% if entry.location %}
-      {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
+      {{ entry.location }}{{ ","}}&nbsp;
     {% endif -%}
     {% if entry.month %}
-      {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
+     {{ entry.month | capitalize }}
     {% endif %}
     {% if entry.year %}
-      {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
+     {{ " " }}{{ entry.year }}{{"."}}
     {% endif %}
     {% if entry.additional_info %}
       {% capture entrytype %}{{ entrytype }}{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
