@@ -325,6 +325,7 @@ filtered_bibtex_keywords:
     bibtex_show,
     blog,
     code,
+    date-added,
     date-modified,
     google_scholar_id,
     html,
