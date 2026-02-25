@@ -68,6 +68,6 @@ An AI-enabled testbed for Wireless+AI_](/assets/pdf/talks/2025-12-06-AI4NextG-Sa
 
 ### Other presentations
 
-- [2026-02-24] [_Communicating your research to others_](/assets/pdf/talks/2026-02-24_Sarwate_RU_ECE_GSA.pdf), Rutgers ECE Department Graduate Student Association
+- [2026-02-25] [_Communicating your research to others_](/assets/pdf/talks/2026-02-25_Sarwate_RU_ECE_GSA.pdf), Rutgers ECE Department Graduate Student Association
 
 - [2024-09-19] [_Getting Into Undergraduate Research in ECE at Rutgers_](/assets/pdf/talks/2024-09-19_Sarwate_URDD.pdf), Undergraduate Research Discovery Day, Rutgers University
