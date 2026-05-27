@@ -17,7 +17,6 @@ My "lab" is a room full of desks. I have thus far resisted giving it a fancy nam
 - [Sinjini Banerjee](https://sinjini77.github.io/SinjiniBanerjee/) (PhD)
 - [Xin Li](https://www.linkedin.com/in/xin-li-28359aa2/) (PhD)
 - [Nitya Sathyavageeswaran](https://nityas1997.github.io/) (PhD) (co-advised with [Narayan Mandayam](http://www.winlab.rutgers.edu/~narayan/) and [Roy Yates](http://www.winlab.rutgers.edu/~ryates/))
-- [Ye Tao](https://yetaotjroc93.github.io/) (PhD)
 - [Yu Wu](https://yuwuofrutgers.github.io/) (PhD)
 
 **Undergraduate Students/WINLAB Interns:**
@@ -34,9 +33,12 @@ Here is a list of previous students, postdocs, and visitors who have worked with
 
 **Previous Graduate Students and Postdocs**
 
+- [Ye Tao](https://yetaotjroc93.github.io/) (PhD 2025)
+  - PhD Thesis: _Privacy-Enhancing Methodologies and Privacy Risk Discovery in Neuroimaging Data: From Differentially Private Distribution Estimation and Visualization to Brain Foundation Model Evaluation_
+
 - [Daniel Bittner](https://www.linkedin.com/in/daniel-bittner-8776b728/) (PhD 2025) (co-advised with [Rebecca Wright](https://www.cs.columbia.edu/~rwright/)
 
-  - PhD Thesis: Differentially Private Auditing and Monitoring
+  - PhD Thesis: *Differentially Private Auditing and Monitoring*
 
 - Jeffrey Isaacs (MS 2022)
 
