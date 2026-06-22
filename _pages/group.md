@@ -91,6 +91,13 @@ Here is a list of previous students, postdocs, and visitors who have worked with
 
 **Past Undergraduate Students**
 
+- Praneeth Damarla (Rutgers University), [WINLAB Summer Internship](https://www.winlab.rutgers.edu/prospective-students/summer-internship/)
+- Hasan Abdulrahman (Rutgers University), (Rutgers University), [WINLAB Summer Internship](https://www.winlab.rutgers.edu/prospective-students/summer-internship/)
+- Madhav Subramaniyam (Rutgers University), (Rutgers University), [WINLAB Summer Internship](https://www.winlab.rutgers.edu/prospective-students/summer-internship/)
+- Joshua Menezes (Rutgers University), [WINLAB Summer Internship](https://www.winlab.rutgers.edu/prospective-students/summer-internship/)
+- Akshar Vedantham (Rutgers University), [WINLAB Summer Internship](https://www.winlab.rutgers.edu/prospective-students/summer-internship/)
+- Kirthana Ram (Rutgers University), Summer 2024, [WINLAB Summer Internship](https://www.winlab.rutgers.edu/prospective-students/summer-internship/)
+- Varun Kota (University of Maryland), Summer 2024, [WINLAB Summer Internship](https://www.winlab.rutgers.edu/prospective-students/summer-internship/)
 - [Irina Mukhametzhanova](https://www.linkedin.com/in/irina-mukhametzhanova-4614b71b3) (Rutgers), Fall 2023 - Spring 2024 [Aresty Program](https://aresty.rutgers.edu)
 - Haider Abdelrahman (Rutgers), Summer 2023 [WINLAB Summer Internship](https://www.winlab.rutgers.edu/prospective-students/summer-internship/)
 - [Yunhyuk Chang](https://www.linkedin.com/in/yunhyuk-chang-356715202) (Rutgers), Summer 2023 [WINLAB Summer Internship](https://www.winlab.rutgers.edu/prospective-students/summer-internship/)
