@@ -33,9 +33,8 @@ Here is a list of previous students, postdocs, and visitors who have worked with
 
 **Previous Graduate Students and Postdocs**
 
-- [Ye Tao](https://yetaotjroc93.github.io/) (PhD 2025)
+- [Ye Tao](https://yetaotjroc93.github.io/) (PhD 2026)
   - PhD Thesis: _Privacy-Enhancing Methodologies and Privacy Risk Discovery in Neuroimaging Data: From Differentially Private Distribution Estimation and Visualization to Brain Foundation Model Evaluation_
-
 - [Daniel Bittner](https://www.linkedin.com/in/daniel-bittner-8776b728/) (PhD 2025) (co-advised with [Rebecca Wright](https://www.cs.columbia.edu/~rwright/)
   - PhD Thesis: *Differentially Private Auditing and Monitoring*
 - Jeffrey Isaacs (MS 2022)
