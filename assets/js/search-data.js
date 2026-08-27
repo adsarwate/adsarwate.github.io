@@ -421,12 +421,7 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-new-grant-rings-realtime-resilient-edge-cloud-autonomous-learning-with-timely-inferences-co-pis-roy-d-yates-waheed-u-bajwa-and-dipankar-raychaudhuri-we-will-be-looking-at-issues-in-adaptive-edge-cloud-assisted-ml-based-services-from-the-ground-up",
+    },{id: "news-new-grant-rings-realtime-resilient-edge-cloud-autonomous-learning-with-timely-inferences-co-pis-roy-d-yates-waheed-u-bajwa-and-dipankar-raychaudhuri-we-will-be-looking-at-issues-in-adaptive-edge-cloud-assisted-ml-based-services-from-the-ground-up",
           title: 'New grant! RINGS: REALTIME: Resilient Edge-cloud Autonomous Learning with Timely Inferences, co-PIs Roy...',
           description: "",
           section: "News",},{id: "news-some-new-work-taki-sarwate-bajwa-structured-low-rank-tensors-for-generalized-linear-models-accepted-to-transactions-on-machine-learning-research-tmlr-silk-chakraborty-dasgupta-sarwate-lumsdaine-chang-minibatching-offers-improved-generalization-performance-for-second-order-optimizers-arxiv",
