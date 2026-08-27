@@ -13,13 +13,13 @@ horizontal: false
 
 - [NSF TIP-2509233](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2509233&HistoricalAwards=false) **Planning: AI Ready: STAIRWAI to COSMOS: Sensor-enabled Testbed for Advancing Innovative Research in Wireless+AI** (PI: Anand D. Sarwate, Co-PIs: Yingying Chen, Jorge Ortiz, Ivan Seskar, Bo Yuan)
 
-- [NSF CNS-2148104](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2148104&HistoricalAwards=false)
-  **RINGS: REALTIME: Resilient Edge-cloud Autonomous Learning with Timely Inferences**
-  (PI: Anand D. Sarwate, Co-PIs: Waheed U. Bajwa, Dipankar Raychaudhuri, Roy D. Yates)
-
 - [NIH 2R01DA040487](https://projectreporter.nih.gov/project_info_description.cfm?aid=10058463&icde=52973632) **COINSTAC 2.0: Decentralized, Scalable Analysis of Loosely Coupled Data** (PI: Vince Calhoun (GSU) -- subaward to Rutgers: Anand D. Sarwate (PI))
 
 ## Previously funded projects
+
+- [NSF CNS-2148104](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2148104&HistoricalAwards=false)
+  **RINGS: REALTIME: Resilient Edge-cloud Autonomous Learning with Timely Inferences**
+  (PI: Anand D. Sarwate, Co-PIs: Waheed U. Bajwa, Dipankar Raychaudhuri, Roy D. Yates)
 
 - \[NSF\] [CCF-1910110](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1910110)  
   CIF: Small: ESTRELLA: Exploiting Structure in Tensors for Representation, Estimation, and Limits of Learning Algorithms  
