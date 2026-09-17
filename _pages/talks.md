@@ -39,7 +39,7 @@ An AI-enabled testbed for Wireless+AI_](/assets/pdf/talks/2025-12-06-AI4NextG-Sa
    * [2025-04-07] [IIT-Hyderabad](/assets/pdf/talks/2025-04-10_Sarwate_Tensors_IITH.pdf) (Hyderabad, Telangana, India)
    * [2025-04-07] [IIIT-Hyderabad](/assets/pdf/talks/2025-04-07_Sarwate_Tensors_IIITH.pdf) (Hyderabad, Telangana, India)
    * [2024-07-18] [Center for Advanced Mathematical Sciences, American University of Beirut](/assets/pdf/talks/2024-07-18_Sarwate_DL_Tensors_AUB.pdf) (Beirut, Lebanon)
-   * [2025-03-28] [Center for Information and Systems Engineering, Boston Universiry](/assets/pdf/talks/2025-03-28_Sarwate_Tensors_BU.pdf) (Boston, USA)
+   * [2025-03-28] [Center for Information and Systems Engineering, Boston University](/assets/pdf/talks/2025-03-28_Sarwate_Tensors_BU.pdf) (Boston, USA)
 
 - [2025-07-28] [_Are modern ML models like scientific instruments?_](/assets/pdf/talks/2025-07-28_Sarwate_AICIT2025.pdf), [AICIT 2025](https://aicit2025.github.io/) (Guangzhou, China)
 
