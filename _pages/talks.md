@@ -14,6 +14,9 @@ If you see something egregious let me know and I'll try to update!
 <!-- [YYYY-MM-DD] [*Title*](/assets/pdf/talks/foo.pdf), Location -->
 
 ### Selected research talks
+- [2026-10-29] [_Differential privacy: from statistical
+decisions to application challenges_](/assets/pdf/talks/2025-12-06_Sarwate_MLSP.pdf), keynote at MLSP 2026.
+
 - [2025-12-06] [_Building a STAIRWAI to COSMOS
 An AI-enabled testbed for Wireless+AI_](/assets/pdf/talks/2025-12-06-AI4NextG-Sarwate.pdf), [AI4NextG Workshop](https://ai4nextg.github.io/) at NeurIPS 2025.
 
